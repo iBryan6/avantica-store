@@ -1,6 +1,6 @@
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
-      <div class="col-12 col-md">
+      <div class="col-12 col-md foot-phone-mail">
         <h6><a href="tel:+59176953543"><i class="fas fa-phone"></i> +591 76953543</a></h6>
         <h6><a href="mailto:avantica_store@gmail.com"><i class="fas fa-envelope"></i> avantica_store@gmail.com</a></h6>
         <hr>
