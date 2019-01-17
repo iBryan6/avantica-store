@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/login',function(){
+    return view('login');
+});
