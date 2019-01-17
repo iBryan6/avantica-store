@@ -1,4 +1,4 @@
 @extends('layouts/app')
 @section('content')
-    <h1>Hola Home</h1>
+    <h1 class="header">Hola Home</h1>
 @endsection
