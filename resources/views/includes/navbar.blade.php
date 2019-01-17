@@ -1,5 +1,5 @@
         <nav class="navbar navbar-expand-md bg-primary navbar-dark sticky-top">
-            <div class="container">
+            
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="images/icnorte.png" alt="IC NORTE Logo">
                 </a>
@@ -64,5 +64,5 @@
                         @endguest
                     </ul>
                 </div>
-            </div>
+           
         </nav>
