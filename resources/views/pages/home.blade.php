@@ -1,9 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-@include('includes.slider')
-<div class="home container">
-    <section class="how-it-works">
+
+
+<div class="home">
+    <section class="slider">
+        @include('includes.slider')
+    </section>
+    <section class="how-it-works container">
             <div class="row">
                     <div class="col-sm">
                         <h1 class="centered">HOW IT WORKS</h1>
@@ -32,7 +36,7 @@
                 </div>
     </section>
     <hr>
-    <section class="featured-products">
+    <section class="featured-products container">
             <div class="row">
                     <div class="col-sm">
                         <h2 class="centered">FEATURED PRODUCTS</h2>

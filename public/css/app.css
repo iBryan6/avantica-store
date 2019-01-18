@@ -10744,6 +10744,10 @@ ol {
   padding: 20px 0 20px 0;
 }
 
+.home section.slider {
+  padding-top: 0;
+}
+
 .home i + p {
   padding-top: 15px;
 }
