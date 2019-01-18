@@ -30,8 +30,8 @@
                             <br>
                             <button class="btn btn-secondary" style="float:right;"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Cart Items</button>
                             <br>
-                            <a class="nav-link" href="#">Contact Us</a>                            
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="/contact">Contact Us</a>                           
+                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             <br>
                         </li>
