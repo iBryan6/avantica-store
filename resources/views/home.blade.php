@@ -37,6 +37,11 @@
                         <h2 class="centered">FEATURED PRODUCTS</h2>
                     </div>
             </div>
+            <div class="row card-deck">
+                    @include('includes.productsTemplate')
+                    @include('includes.productsTemplate')
+                    @include('includes.productsTemplate')
+            </div>
     </section>
 
 </div>
