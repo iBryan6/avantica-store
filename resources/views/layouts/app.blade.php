@@ -23,8 +23,9 @@
         @include('includes.navbar')
         <main class="container">
             @yield('content')
-            @include('includes.footer')
+            
         </main>
+        @include('includes.footer')
     </div>
 </body>
 </html>
