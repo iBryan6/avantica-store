@@ -1,4 +1,5 @@
 <footer class="pt-4 my-md-5 pt-md-5 border-top footer container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-6 col-md">
             <h6><a href="tel:+59176953543" class="footer-phone"><i class="fas fa-phone"></i> +591 76953543</a></h6><br>
@@ -44,4 +45,5 @@
         </ul>
       </div>
     </div>
+  </div>
   </footer>

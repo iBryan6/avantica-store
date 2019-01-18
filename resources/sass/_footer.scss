@@ -1,10 +1,15 @@
 .footer{
     background-color: $primary-color;
-    a , h5{
+    a{
         color: $tertiary-color;
         &:hover{
             color: $secondary-color;
         }
+    }
+    
+    h5{
+        color: $tertiary-color;
+        font-weight: bold;
     }
     
     ul li a{

@@ -4,14 +4,17 @@
   background-color: black;
 }
 
-.footer a,
-.footer h5 {
+.footer a {
   color: white;
 }
 
-.footer a:hover,
-.footer h5:hover {
+.footer a:hover {
   color: grey;
+}
+
+.footer h5 {
+  color: white;
+  font-weight: bold;
 }
 
 .footer ul li a {
