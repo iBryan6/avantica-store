@@ -138,6 +138,23 @@ ol {
   }
 }
 
+.home h1,
+.home h2 {
+  padding: 10px 0 20px 0;
+}
+
+.home section {
+  padding-top: 20px;
+}
+
+.home i + p {
+  padding-top: 15px;
+}
+
+.home .centered {
+  text-align: center;
+}
+
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
