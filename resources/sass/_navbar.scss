@@ -1,0 +1,24 @@
+.top-navigation{
+    background-color: $tertiary-color;
+    ul li a{
+        color:$primary-color;
+    }
+
+}
+.navigation{
+    background-color: $primary-color;
+    ul li a{
+        color: $primary-color;
+        text-decoration: none;
+    }
+    ul li a:hover {
+        color: #0056b3 !important;
+    }
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: $tertiary-color !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: $tertiary-color !important;
+}
