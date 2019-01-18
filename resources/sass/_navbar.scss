@@ -30,3 +30,10 @@ ol {
     list-style:none;
 }
 
+@media (max-width: 407px) {
+    .navbar-nav {
+        display: unset !important;
+        margin-right: 2px;
+    }
+}
+
