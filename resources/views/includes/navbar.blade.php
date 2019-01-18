@@ -9,8 +9,7 @@
             </ul>
             <ul class ="navbar-nav ml-auto">
                     <form class="form-inline">
-                          <input class="form-control mr-sm-2 input-lg" type="text" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                          <input class="form-control mr-sm-2 input-lg searchnav" type="text" placeholder="Search" aria-label="Search">
                     </form>
             </ul>
         </nav>
@@ -26,6 +25,13 @@
                 <div class="collapse navbar-collapse ml-right" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav">
+                        <li class="nav-item dropdown hidden">
+                            <input class="form-control mr-sm-2 input-lg searchnav" type="text" placeholder="Search" aria-label="Search">
+                            <br>
+                            <a class="nav-link" href="">Contact Us</a>
+                            <a class="nav-link" href="">Register</a>
+                            <br>
+                        </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Shopping
                                   <span class="caret"></span>
@@ -59,7 +65,7 @@
                                             <a href="#" class="dropdown-item">Cloths</a>
                                         </div>
                                       </li>
-                                      <li class="nav-item dropdown">
+                                        <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Shopping
                                                 <span class="caret"></span>
                                             </a>
@@ -69,14 +75,14 @@
                                                 <a href="#" class="dropdown-item">Drinks</a>
                                                 <a href="#" class="dropdown-item">Cloths</a>
                                             </div>
-                                          </li>
+                                        </li>
                           </ul>
                         </div>
                           
                  
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                            <ol><button class="btn btn-secondary" style="font-size:17px"><i class="fas fa-shopping-cart fa-2x"></i>&nbsp;&nbsp;Cart Items</button>
+                            <ol><button class="btn btn-secondary" style="font-size:17px"><i class="fas fa-shopping-cart fa-2x "></i>&nbsp;&nbsp;Cart Items</button>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">

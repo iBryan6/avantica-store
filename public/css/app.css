@@ -10580,6 +10580,10 @@ a.text-dark:focus {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 .top-navigation {
   background-color: white;
 }
@@ -10626,6 +10630,14 @@ ol {
   .top-navigation .ml-auto,
   .top-navigation .mx-auto {
     margin-left: 0 !important;
+  }
+
+  .hidden {
+    display: block !important;
+  }
+
+  .top-navigation {
+    display: none;
   }
 }
 
