@@ -10622,14 +10622,8 @@ ol {
 }
 
 @media (max-width: 415px) {
-  .navbar-nav {
-    display: unset !important;
-    margin-right: 2px;
-  }
-
-  .top-navigation .ml-auto,
-  .top-navigation .mx-auto {
-    margin-left: 0 !important;
+  .cartMenu {
+    display: none;
   }
 
   .hidden {
@@ -10637,6 +10631,10 @@ ol {
   }
 
   .top-navigation {
+    display: none;
+  }
+
+  .loginMenu {
     display: none;
   }
 }

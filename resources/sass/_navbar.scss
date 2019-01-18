@@ -35,20 +35,17 @@ ol {
 }
 
 @media (max-width: $break-small) {
-    .navbar-nav {
-        display: unset !important;
-        margin-right: 2px;
-    }
-    .top-navigation{
-        .ml-auto, .mx-auto {
-            margin-left: 0 !important;
-        }
+    .cartMenu{
+        display: none;
     }
     .hidden{
         display:block !important;
     }
     .top-navigation{
         display: none;
+    }
+    .loginMenu{
+        display:none;
     }
 }
 

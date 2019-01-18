@@ -28,8 +28,11 @@
                         <li class="nav-item dropdown hidden">
                             <input class="form-control mr-sm-2 input-lg searchnav" type="text" placeholder="Search" aria-label="Search">
                             <br>
-                            <a class="nav-link" href="">Contact Us</a>
-                            <a class="nav-link" href="">Register</a>
+                            <button class="btn btn-secondary" style="float:right;"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Cart Items</button>
+                            <br>
+                            <a class="nav-link" href="#">Contact Us</a>                            
+                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             <br>
                         </li>
                             <li class="nav-item dropdown">
@@ -81,11 +84,12 @@
                           
                  
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                            <ol><button class="btn btn-secondary" style="font-size:17px"><i class="fas fa-shopping-cart fa-2x "></i>&nbsp;&nbsp;Cart Items</button>
+                    <ul class="navbar-nav ml-auto cartMenu">
+                            <ol>
+                                <button class="btn btn-secondary" style="font-size:17px"><i class="fas fa-shopping-cart fa-2x "></i>&nbsp;&nbsp;Cart Items</button>
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
+                            <li class="nav-item loginMenu">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
                             </ol>
