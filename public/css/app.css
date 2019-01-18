@@ -10617,7 +10617,7 @@ ol {
   list-style: none;
 }
 
-@media (max-width: 407px) {
+@media (max-width: 415px) {
   .navbar-nav {
     display: unset !important;
     margin-right: 2px;
