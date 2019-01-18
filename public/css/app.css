@@ -89,6 +89,43 @@
   }
 }
 
+.top-navigation {
+  background-color: white;
+}
+
+.top-navigation ul li a {
+  color: black;
+}
+
+.top-navigation ul li a:hover {
+  color: grey !important;
+}
+
+.navigation {
+  background-color: black;
+}
+
+.navigation ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: grey !important;
+}
+
+ol {
+  list-style: none;
+}
+
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
