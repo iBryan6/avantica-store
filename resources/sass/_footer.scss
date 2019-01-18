@@ -1,12 +1,13 @@
 .footer{
     background-color: $primary-color;
+    
     a{
         color: $tertiary-color;
         &:hover{
             color: $secondary-color;
         }
     }
-    
+
     h5{
         color: $tertiary-color;
         font-weight: bold;
@@ -16,10 +17,15 @@
         text-decoration: none;
     }
 
-    .footer-icon{
+    .footer-icons { 
+        .footer-icon{
+            font-size: 35px;
+        }
+        a+a{
         padding-left: 10px;
-        font-size: 35px;
+        }
     }
+
     .footer-phone, .footer-email{
         font-size: 20px;
         text-decoration: none;
@@ -27,6 +33,47 @@
             font-size: 15px;
         }
     }
+
+    //Responsive
+    @media screen and (max-width: $break-small) {
+        font-size: 16px;
+        text-align: center;
+        br {
+            display: none;
+        }
+        ul li{
+            padding-bottom: 10px;
+            &:first-child{
+                padding-top: 20px;
+            }
+        }
+        h5{
+            font-size: 30px;
+        }
+        .footer-phone, .footer-email{
+            &.footer-email{
+                font-size: 18px;
+                padding-top: 10px;
+            }
+        }
+    }
+    @media (min-width: $break-small) and (max-width: $break-med){
+        .footer-icons { 
+            .footer-icon{
+                font-size: 28px;
+            }
+            a+a{
+            padding-left: 10px;
+            }
+        }
+        .footer-phone, .footer-email{
+            font-size: 15px;
+            &.footer-email{
+                font-size: 11px;
+            }
+        }
+    }
+
 }
 
 

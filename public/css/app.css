@@ -21,9 +21,12 @@
   text-decoration: none;
 }
 
-.footer .footer-icon {
-  padding-left: 10px;
+.footer .footer-icons .footer-icon {
   font-size: 35px;
+}
+
+.footer .footer-icons a + a {
+  padding-left: 10px;
 }
 
 .footer .footer-phone,
@@ -35,6 +38,55 @@
 .footer .footer-phone.footer-email,
 .footer .footer-email.footer-email {
   font-size: 15px;
+}
+
+@media screen and (max-width: 415px) {
+  .footer {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer br {
+    display: none;
+  }
+
+  .footer ul li {
+    padding-bottom: 10px;
+  }
+
+  .footer ul li:first-child {
+    padding-top: 20px;
+  }
+
+  .footer h5 {
+    font-size: 30px;
+  }
+
+  .footer .footer-phone.footer-email,
+  .footer .footer-email.footer-email {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 800px) {
+  .footer .footer-icons .footer-icon {
+    font-size: 28px;
+  }
+
+  .footer .footer-icons a + a {
+    padding-left: 10px;
+  }
+
+  .footer .footer-phone,
+  .footer .footer-email {
+    font-size: 15px;
+  }
+
+  .footer .footer-phone.footer-email,
+  .footer .footer-email.footer-email {
+    font-size: 11px;
+  }
 }
 
 /*!
