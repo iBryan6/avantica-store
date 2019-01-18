@@ -1,16 +1,31 @@
-.footer{    
-    background-color: black;
+.footer{
+    background-color: $primary-color;
+    a{
+        color: $tertiary-color;
+        &:hover{
+            color: $secondary-color;
+        }
+    }
+    
+    h5{
+        color: $tertiary-color;
+        font-weight: bold;
+    }
+    
     ul li a{
         text-decoration: none;
     }
-    a , h5{
-        color: white;
-    }
+
     .footer-icon{
         padding-left: 10px;
+        font-size: 35px;
     }
-    .footer-phone{
+    .footer-phone, .footer-email{
         font-size: 20px;
+        text-decoration: none;
+        &.footer-email{
+            font-size: 15px;
+        }
     }
 }
 

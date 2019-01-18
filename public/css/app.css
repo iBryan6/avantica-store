@@ -4,21 +4,37 @@
   background-color: black;
 }
 
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: grey;
+}
+
+.footer h5 {
+  color: white;
+  font-weight: bold;
+}
+
 .footer ul li a {
   text-decoration: none;
 }
 
-.footer a,
-.footer h5 {
-  color: white;
-}
-
 .footer .footer-icon {
   padding-left: 10px;
+  font-size: 35px;
 }
 
-.footer .footer-phone {
+.footer .footer-phone,
+.footer .footer-email {
   font-size: 20px;
+  text-decoration: none;
+}
+
+.footer .footer-phone.footer-email,
+.footer .footer-email.footer-email {
+  font-size: 15px;
 }
 
 .top-navigation {
