@@ -30,7 +30,7 @@ ol {
     list-style:none;
 }
 
-@media (max-width: 407px) {
+@media (max-width: $break-small) {
     .navbar-nav {
         display: unset !important;
         margin-right: 2px;
