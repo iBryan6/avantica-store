@@ -1,0 +1,27 @@
+.home{
+    h1,h2{
+        padding:10px 0 20px 0;
+    }
+    section{
+        padding: 20px 0 20px 0;;
+    }
+    i+p{
+        padding-top: 15px;
+    }
+
+    .centered{
+        text-align:center;
+    }
+
+    //Responsive
+    @media screen and (max-width: $break-small) {
+        .arrow{
+            display: none;
+        }
+        .row{
+            i+div{
+                padding-top: 20px;
+            }
+        }
+    }
+}

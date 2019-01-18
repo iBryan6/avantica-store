@@ -1,12 +1,23 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
+
+//Footer
 @import 'footer';
+
+//NavBar
 @import 'navbar';
 @import 'slider';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//Home
+@import 'home';
+
+//Partials
+//productsTemplate
+@import 'productsTemplate';
+
