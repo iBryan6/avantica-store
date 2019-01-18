@@ -10646,6 +10646,20 @@ ol {
   text-align: center;
 }
 
+@media screen and (max-width: 415px) {
+  .home .arrow {
+    display: none;
+  }
+
+  .home .row i + div {
+    padding-top: 20px;
+  }
+}
+
+.featured-products a {
+  color: black;
+}
+
 .featured-products .price-before {
   text-decoration: line-through;
 }
@@ -10653,5 +10667,11 @@ ol {
 .featured-products .price-now {
   padding-left: 20px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 415px) {
+  .featured-products .card-deck .card {
+    width: 100% !important;
+  }
 }
 

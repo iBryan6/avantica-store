@@ -1,7 +1,7 @@
 <div class="card" style="width: 18rem;">
     <div class="card-header">
         <h5 class="card-title" style="float:left;">Pil</h5>
-        <i class="fas fa-cart-plus fa-2x" style="float:right;"></i>
+        <a href="#"><i class="fas fa-cart-plus fa-2x" style="float:right;"></i></a>
     </div>
     <img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image placeholder">
     <div class="card-body">

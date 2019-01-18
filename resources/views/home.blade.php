@@ -13,17 +13,17 @@
                         <i class="fas fa-cart-arrow-down fa-5x"></i>
                         <p>Load all your products in the cart and Checkout.</p>
                     </div>
-                    <i class="fas fa-arrow-right fa-3x align-self-center"></i>
+                    <i class="fas fa-arrow-right fa-3x align-self-center arrow"></i>
                     <div class="col-sm">
                         <i class="fas fa-truck-loading fa-5x"></i>  
                         <p>Distributor will take care of all the packing.</p> 
                     </div>
-                    <i class="fas fa-arrow-right fa-3x align-self-center"></i>
+                    <i class="fas fa-arrow-right fa-3x align-self-center arrow"></i>
                     <div class="col-sm">
                         <i class="fas fa-truck-moving fa-5x"></i>
                         <p>We personally take the products to you.</p>    
                     </div>
-                    <i class="fas fa-arrow-right fa-3x align-self-center"></i>
+                    <i class="fas fa-arrow-right fa-3x align-self-center arrow"></i>
                     <div class="col-sm">
                         <i class="fas fa-money-bill fa-5x"></i>   
                         <p>Pay for your products in person.</p>  
