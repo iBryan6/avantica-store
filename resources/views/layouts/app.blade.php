@@ -21,9 +21,9 @@
 <body>
     <div id="app">
         @include('includes.navbar')
+        @include('includes.slider')
         <main class="container">
             @yield('content')
-            
         </main>
         @include('includes.footer')
     </div>

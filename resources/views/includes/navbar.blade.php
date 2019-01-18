@@ -1,6 +1,6 @@
         <nav class="navbar navbar-expand-md top-navigation">
                <ul class="navbar-nav navbar-brand ml-auto">
-                    <li class="nav-item navbar-brand"> <a class="nav-link">Contact Us</a></li> 
+                    <li class="nav-item navbar-brand"> <a class="nav-link" href="#">Contact Us</a></li> 
                     @if (Route::has('register'))
                     <li class="nav-item navbar-brand">
                         <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -76,7 +76,7 @@
                  
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                            <ol><button class="btn btn-secondary"><i class="fas fa-shopping-cart fa-2x"></i>Cart Items</button>
+                            <ol><button class="btn btn-secondary" style="font-size:17px"><i class="fas fa-shopping-cart fa-2x"></i>&nbsp;&nbsp;Cart Items</button>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
