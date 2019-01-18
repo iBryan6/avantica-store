@@ -131,6 +131,11 @@ ol {
     display: unset !important;
     margin-right: 2px;
   }
+
+  .top-navigation .ml-auto,
+  .top-navigation .mx-auto {
+    margin-left: 0 !important;
+  }
 }
 
 /*!
