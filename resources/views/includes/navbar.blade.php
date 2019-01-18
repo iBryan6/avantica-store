@@ -1,6 +1,6 @@
         <nav class="navbar navbar-expand-md top-navigation">
                <ul class="navbar-nav navbar-brand ml-auto">
-                    <li class="nav-item navbar-brand"> <a class="nav-link" href="#">Contact Us</a></li> 
+                    <li class="nav-item navbar-brand"> <a class="nav-link" href="/contact">Contact Us</a></li> 
                     @if (Route::has('register'))
                     <li class="nav-item navbar-brand">
                         <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
