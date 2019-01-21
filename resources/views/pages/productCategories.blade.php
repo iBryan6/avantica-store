@@ -8,18 +8,15 @@
     @include('includes.sidebar_products_categories')
 
     {{-- Products --}}
-    <div class="container">
+    <div class="col-sm container">
         <section class="featured-products mt-4">
             <div class="row card-deck container ml-1">
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
-                @include('includes.productsTemplate')
-
             </div>
             <div class="row card-deck container ml-1 mt-4">
-                @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')

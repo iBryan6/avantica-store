@@ -6,3 +6,10 @@
     padding-left: 20px;
     font-weight: bold;
 }
+
+//Responsive
+@media (max-width: $break-small) {
+    .img-hidden {
+        display: none;
+    }
+}

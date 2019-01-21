@@ -2,9 +2,7 @@
 
 @section('content')
 <div class="home mb-3">
-    <section class="slider">
         @include('includes.slider')
-    </section>
     <section class="how-it-works container">
         <div class="row">
             <div class="col-sm">
