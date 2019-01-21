@@ -16,6 +16,7 @@
             </div>
         </div>
     </div>
+
     <!-- TABS -->
     <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
         <li class="nav-item">
@@ -31,8 +32,10 @@
                 aria-selected="false">Products</a>
         </li>
     </ul>
+
     <!-- TABLES -->
     <div class="tab-content" id="dashboardTab">
+        <!-- DASHBOARD -->
         <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
             <h2>LAST ORDERS</h2>
             <table class="table table-hover">
@@ -68,9 +71,17 @@
             <button type="button" class="btn btn-primary">Search Order</button>
         </div>
 
-        <div class="tab-pane fade" id="distributors" role="tabpanel" aria-labelledby="distributors-tab">...</div>
-        <div class="tab-pane fade" id="products" role="tabpanel" aria-labelledby="products-tab">...</div>
+        <!-- DISTRIBUTORS -->
+        <div class="tab-pane fade" id="distributors" role="tabpanel" aria-labelledby="distributors-tab">
+            <h2>DISTRIBUTORS</h2>
+        </div>
+
+        <!-- PRODUCTS -->
+        <div class="tab-pane fade" id="products" role="tabpanel" aria-labelledby="products-tab">
+
+        </div>
     </div>
+
     <!-- MODAL -->
     <div class="modal" id="orderModal">
         <div class="modal-dialog">
@@ -93,8 +104,7 @@
                                         </h5>
                                     </div>
 
-                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                        data-parent="#accordion">
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                         <div class="card-body">
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
                                             laudantium ipsam nihil temporibus, asperiores assumenda adipisci omnis
@@ -154,5 +164,6 @@
             </div>
         </div>
     </div>
+
 </section>
 @endsection
