@@ -18,9 +18,11 @@
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
+                @include('includes.productsTemplate')
                 
         </div>
         <div class="row card-deck container ml-1 mt-4">
+                @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
                 @include('includes.productsTemplate')
