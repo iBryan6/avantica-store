@@ -1,8 +1,9 @@
 <div class="col-md-2 mb-4 mt-4 ml-4">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
           <span class="text-muted">Categories</span>
-          <span class="badge badge-secondary badge-pill">3</span>
+          <span class="badge badge-secondary badge-pill">5</span>
         </h4>
+        
         <ul class="list-group mb-3">
               <li class="list-group-item d-flex justify-content-between lh-condensed dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">Food
