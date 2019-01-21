@@ -68,12 +68,42 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn btn-primary">Search Order</button>
+            <button type="button" class="btn btn-dark">Search Order</button>
         </div>
 
         <!-- DISTRIBUTORS -->
         <div class="tab-pane fade" id="distributors" role="tabpanel" aria-labelledby="distributors-tab">
             <h2>DISTRIBUTORS</h2>
+                        <table class="table table-hover">
+                <thead class="dashboard-thead">
+                    <tr>
+                        <th scope="col">Order Code</th>
+                        <th scope="col">Client</th>
+                        <th scope="col">Distributor</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-toggle="modal" data-id="1" data-target="#orderModal">
+                        <th scope="row">1</th>
+                        <td>Mark Otto</td>
+                        <td>Jack Nicholson</td>
+                        <td style="color:green;">Completed</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td style="color:red;">Pending</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>The Bird</td>
+                        <td style="color:red;">Pending</td>
+                    </tr>
+                </tbody>
+            </table>2
         </div>
 
         <!-- PRODUCTS -->
