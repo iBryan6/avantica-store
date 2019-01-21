@@ -37,8 +37,11 @@
                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                 <br>
             </li>
+            <li>
+                <a href="/product_categories" class="nav-link">Shop</a>
+            </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Shopping
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Food
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
@@ -49,7 +52,7 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Shopping
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Drinks
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
@@ -60,7 +63,7 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Shopping
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Electronics
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
@@ -71,7 +74,7 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Shopping
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Cloths
                     <span class="caret"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
@@ -88,7 +91,8 @@
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto cartMenu">
         <ol>
-            <button class="btn btn-secondary cart-btn" style="font-size:17px"><i class="fas fa-shopping-cart "></i> Cart
+            <button class="btn btn-secondary cart-btn" style="font-size:17px"><i class="fas fa-shopping-cart "></i>
+                Cart
                 Items</button>
             <!-- Authentication Links -->
             @guest
