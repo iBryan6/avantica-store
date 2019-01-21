@@ -1,18 +1,21 @@
-.featured-products{
-    a{
-        color:$primary-color;
+.featured-products {
+    a {
+        color: $primary-color;
     }
-    .price-before{
+
+    .price-before {
         text-decoration: line-through;
     }
-    .price-now{
+
+    .price-now {
         padding-left: 20px;
         font-weight: bold;
     }
+
     //Responsive
-        @media screen and (max-width: $break-small) {
-            .card-deck .card {
-                width: 100% !important;
-            }
+    @media screen and (max-width: $break-small) {
+        .card-deck .card {
+            width: 100% !important;
         }
+    }
 }

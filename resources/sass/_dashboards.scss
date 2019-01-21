@@ -1,0 +1,49 @@
+.admin-dashboard {
+    a {
+        text-decoration: none;
+        color: $primary-color;
+    }
+
+    h2 {
+        margin: 1em;
+    }
+
+    .dashboard-thead {
+        background-color: $secondary-color;
+    }
+
+    .logged-text {
+        float: right;
+        margin: 2em 0 2em 0;
+        background: none;
+        border: none;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .modal-body {
+        .card-header {
+            text-decoration: none;
+
+            &:hover {
+                background-color: $secondary-color;
+            }
+        }
+
+        .order-details {
+            font-weight: bold;
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        .btn-link {
+            font-weight: 400;
+            color: $primary-color;
+            text-decoration: none !important;
+        }
+    }
+}

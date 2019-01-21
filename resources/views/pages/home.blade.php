@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-
 <div class="home">
     <section class="slider">
         @include('includes.slider')
@@ -50,5 +48,4 @@
     </section>
 
 </div>
-
 @endsection
