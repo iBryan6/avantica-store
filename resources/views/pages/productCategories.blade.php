@@ -10,19 +10,27 @@
         <div class="col-12 col-sm-6 col-md-8">
             <section class="featured-products">
                 <div class="row mt-4 card-deck">
-                    <div class="col-12 col-md-6 col-lg-4">@include('includes.productsTemplate')</div>
-                    <div class="col-12 col-md-6 col-lg-4">@include('includes.productsTemplate')</div>
-                    <div class="col-12 col-md-6 col-lg-4">@include('includes.productsTemplate')</div>
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                </div>
+                <div class="row mt-4 card-deck">
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                    <div class="col-12 col-md-6 col-lg-3">@include('includes.productsTemplate')</div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <!-- Pagination -->
+                        @include('includes.pagination')
+                    </div>
                 </div>
             </section>
         </div>
     </div>
-    <div class="row mt-4">
-        <div class="col-12">
-        <!-- Pagination -->
-        @include('includes.pagination')
-        </div>
-    </div>
+
 </div>
 
 @endsection

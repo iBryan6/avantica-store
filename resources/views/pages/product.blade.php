@@ -15,19 +15,19 @@
             <div class="row ml-1 mt-2">
                 <div class="col">
                     <div class="row mt-2">
-                        <div class="col-3 col-sm-6 col-md-12">
+                        <div class="col-6 col-sm-3 col-md-4 col-lg-6">
                             <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="https://via.placeholder.com/150x110"
                                 alt="">
                         </div>
-                        <div class="col-3 col-sm-6 col-md-12">
+                        <div class="col-6 col-sm-3 col-md-4 col-lg-6">
                             <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="https://via.placeholder.com/150x110"
                                 alt="">
                         </div>
-                        <div class="col-3 col-sm-6 col-md-12">
+                        <div class="col-6 col-sm-3 col-md-4 col-lg-6">
                             <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="https://via.placeholder.com/150x110"
                                 alt="">
                         </div>
-                        <div class="col-3 col-sm-6 col-md-12">
+                        <div class="col-6 col-sm-3 col-md-4 col-lg-6">
                             <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="https://via.placeholder.com/150x110"
                                 alt="">
                         </div>
@@ -43,7 +43,7 @@
     </div>
     <div class="card col-md-5 mt-4 ml-4 pl-4">
         <div class="card-header">
-            <h2 class="card-title header" style="float:left;">Milk Pil</h2>
+            <h2 class="card-title header" style="float:left;">Chocolatada PIL</h2>
         </div>
         <div class="card-body mt-4">
             <h3 class="price-now">
@@ -63,7 +63,7 @@
             <div class="row">
                     <div class="col-md-6 mt-4">
                             <p class="text-muted" style="font-size: 1rem">Product Delivery</p>
-                            <input type="text" placeholder="Enter promo code" class="mt-3 pt-1">
+                            <input type="text" placeholder="Enter promo code" class="mt-3 ml-1">
                     </div>
                     <div class="col-md-6 mt-4">
                             <a href="#">
