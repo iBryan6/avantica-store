@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row ml-4 mr-4 mb-4 mt-2">
-    <div class="col-md mt-3">
+    <div class="col-md-6 mt-3">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -13,7 +13,7 @@
                 </ol>
             </nav>
             <div class="row ml-1 mt-2">
-                <div class="col-sm">
+                <div class="col">
                     <div class="row mt-2">
                         <div class="col-3 col-sm-6 col-md-12">
                             <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="https://via.placeholder.com/150x110"
@@ -36,12 +36,12 @@
 
                 </div>
                 <div class="col-sm">
-                    <img class="img-fluid" src="https://via.placeholder.com/500x500" alt="">
+                    <img class="img-fluid img-thumbnail" src="https://via.placeholder.com/600x600" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="card col-md mt-4 ml-4 pl-4">
+    <div class="card col-md-5 mt-4 ml-4 pl-4">
         <div class="card-header">
             <h2 class="card-title header" style="float:left;">Milk Pil</h2>
         </div>
@@ -55,6 +55,30 @@
                     FLAT 24% OFF
                 </small>
             </h3>
+            <br>
+            <br>
+            <i class="fas fa-ticket-alt mb-4">&nbsp;&nbsp; Delivery will have a 15% discount if the payment is with a
+                debit card</i>
+            <br>
+            <div class="row">
+                    <div class="col-md-6 mt-4">
+                            <p class="text-muted" style="font-size: 1rem">Product Delivery</p>
+                            <input type="text" placeholder="Enter promo code" class="mt-3 pt-1">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                            <a href="#">
+                                <button class="btn btn-secondary">Add to Cart</button>
+                            </a>
+                            <br>
+                            <a href="#">
+                                <button class="btn btn-secondary mt-3">Check Availability</button>
+                            </a>
+                    </div>
+            </div>
+           
+
+
+
         </div>
     </div>
 </div>
