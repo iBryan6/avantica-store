@@ -26,7 +26,8 @@
             </tr>
             <tr>
                 <th scope="row">571555252</th>
-                <td>Straight Talk Samsung Galaxy S8 Prepaid Smartphone (Limit 2) Sales of Prepaid Phones are restricted to no more than (2) devices per customer within a 21-day period (across Brands)</td>
+                <td>Straight Talk Samsung Galaxy S8 Prepaid Smartphone (Limit 2) Sales of Prepaid Phones are restricted
+                    to no more than (2) devices per customer within a 21-day period (across Brands)</td>
                 <td>Samsung</td>
                 <td>Cellphones</td>
                 <td>Electronics</td>
@@ -36,7 +37,8 @@
             </tr>
             <tr>
                 <th scope="row">1651220FD</th>
-                <td>Dell G3 Gaming Laptop 15.6" Full HD, Intel Core i7-8750H, NVIDIA GeForce GTX 1050 Ti 4GB, 1TB HDD + 128GB SSD, 8GB RAM, Windows 10 - Alpine White - G3579-7054WHT Gaming bundle included</td>
+                <td>Dell G3 Gaming Laptop 15.6" Full HD, Intel Core i7-8750H, NVIDIA GeForce GTX 1050 Ti 4GB, 1TB HDD +
+                    128GB SSD, 8GB RAM, Windows 10 - Alpine White - G3579-7054WHT Gaming bundle included</td>
                 <td>Dell</td>
                 <td>Laptops</td>
                 <td>Electronics</td>
@@ -50,29 +52,33 @@
 </div>
 
 <!-- MODAL -->
-<div class="modal" id="distributorModal">
-    <div class="modal-dialog modal-dialog-centered">
+<div class="modal" id="productsModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Mark Otto</h4>
+                <h4 class="modal-title">VIZIO 50” Class 4K Ultra HD (2160P) HDR Smart LED TV (D50x-G9)</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
+                <h5>IMAGES</h5>
                 <div class="row">
-                    <div class="col-md-4 text-center">
-                        <img src="https://via.placeholder.com/150x150" alt="profile pic" class="rounded-circle">
+                    <div class="col-md-3">
+                        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
                     </div>
-                    <div class="col-md-8 order-details">
-                        <p>Email: <span>Mark_Otto@gmail.com</span></p>
-                        <p>Phone Number: <span>+591 72700090</span></p>
-                        <p>City: <span>Cochabamba</span></p>
-                        <p>Office Hours: <span>8:00 AM - 6:00 PM</span></p>
-                        <p>Orders Today: <span>2</span></p>
+                    <div class="col-md-3">
+                        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
                     </div>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger float-left">Delete Distributor</button>
+                <button type="button" class="btn btn-danger float-left">Delete Product</button>
+                <button type="button" class="btn btn-warning">Edit Product</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
