@@ -46,4 +46,11 @@
             text-decoration: none !important;
         }
     }
+
+    //Responsive
+    @media screen and (max-width: $break-small) {
+        .order-details {
+            margin-top: 1em;
+        }
+    }
 }

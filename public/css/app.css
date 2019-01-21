@@ -5111,8 +5111,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color:black;
-  border-color: grey;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .page-item.disabled .page-link {
@@ -8122,16 +8122,6 @@ button.bg-dark:focus {
   margin-bottom: 3rem !important;
 }
 
-.mb-6,
-.my-6 {
-  margin-bottom: 7.5rem !important;
-}
-
-.mb-7,
-.my-7 {
-  margin-bottom: 11rem !important;
-}
-
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -10821,6 +10811,31 @@ ol {
   font-weight: 400;
   color: black;
   text-decoration: none !important;
+}
+
+@media screen and (max-width: 415px) {
+  .admin-dashboard .order-details {
+    margin-top: 1em;
+  }
+}
+
+.page-link {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+
+.sidebar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.sidebar-toggler-icon {
+  background-color: black;
 }
 
 .featured-products a {
