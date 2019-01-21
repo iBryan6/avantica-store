@@ -1,10 +1,10 @@
-<div class="col-12 col-sm-6 col-md-4 mb-4 mt-4">
-    <h4 class="d-flex justify-content-between align-items-center mb-3">
+<div class="col-12 col-sm-6 col-md-4">
+    <h4 class="d-flex justify-content-between align-items-center">
         <span class="text-muted">Categories</span>
         <span class="badge badge-secondary badge-pill">5</span>
     </h4>
 
-    <ul class="list-group mb-3">
+    <ul class="list-group">
         <li class="list-group-item d-flex justify-content-between lh-condensed dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">Food
                 <span class="caret"></span>

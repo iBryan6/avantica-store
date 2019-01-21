@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="row ml-4 mr-4 mb-4 mt-2">
-    <div class="col-md-6 mt-3">
+<div class="row mr-4 mb-4 mt-2">
+    <div class="col-md mt-3">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
