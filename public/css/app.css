@@ -10767,12 +10767,20 @@ ol {
   }
 }
 
-.margin-bottom-register {
-  margin-bottom: 8rem !important;
+.mb-register {
+  margin-bottom: 4.5rem !important;
 }
 
-.margin-bottom-login {
-  margin-bottom: 13rem !important;
+.mb-login {
+  margin-bottom: 6.7rem !important;
+}
+
+.mt-register {
+  margin-top: 4rem !important;
+}
+
+.mt-login {
+  margin-top: 6rem !important;
 }
 
 .admin-dashboard a {
