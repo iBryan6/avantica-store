@@ -1,5 +1,4 @@
-<div class="card">
-    
+<div class="card">    
     <div class="card-header">
         <a href="/product">
             <h5 class="card-title" style="float:left;">Milk Pil</h5>
