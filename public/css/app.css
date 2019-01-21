@@ -10497,19 +10497,16 @@ a.text-dark:focus {
 
 .footer a {
   color: white;
+  text-decoration: none;
 }
 
 .footer a:hover {
-  color: grey;
+  color: #B0B0B0;
 }
 
 .footer h5 {
   color: white;
   font-weight: bold;
-}
-
-.footer ul li a {
-  text-decoration: none;
 }
 
 .footer .footer-icons .footer-icon {
@@ -10593,7 +10590,11 @@ a.text-dark:focus {
 }
 
 .top-navigation ul li a:hover {
-  color: grey !important;
+  color: #B0B0B0 !important;
+}
+
+.cart-btn {
+  background-color: #B0B0B0;
 }
 
 .navigation {
@@ -10614,7 +10615,7 @@ a.text-dark:focus {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: grey !important;
+  color: #B0B0B0 !important;
 }
 
 ol {
@@ -10764,6 +10765,52 @@ ol {
   .home .row i + div {
     padding-top: 20px;
   }
+}
+
+.admin-dashboard a {
+  text-decoration: none;
+  color: black;
+}
+
+.admin-dashboard h2 {
+  margin: 1em;
+}
+
+.admin-dashboard .dashboard-thead {
+  background-color: #B0B0B0;
+}
+
+.admin-dashboard .logged-text {
+  float: right;
+  margin: 2em 0 2em 0;
+  background: none;
+  border: none;
+}
+
+.admin-dashboard .logged-text:focus {
+  outline: none;
+}
+
+.admin-dashboard .modal-body .card-header {
+  text-decoration: none;
+}
+
+.admin-dashboard .modal-body .card-header:hover {
+  background-color: #B0B0B0;
+}
+
+.admin-dashboard .modal-body .order-details {
+  font-weight: bold;
+}
+
+.admin-dashboard .modal-body .order-details span {
+  font-weight: 400;
+}
+
+.admin-dashboard .modal-body .btn-link {
+  font-weight: 400;
+  color: black;
+  text-decoration: none !important;
 }
 
 .featured-products a {

@@ -1,35 +1,36 @@
-.footer{
+.footer {
     background-color: $primary-color;
-    
-    a{
+
+    a {
         color: $tertiary-color;
-        &:hover{
+        text-decoration: none;
+
+        &:hover {
             color: $secondary-color;
         }
     }
 
-    h5{
+    h5 {
         color: $tertiary-color;
         font-weight: bold;
     }
-    
-    ul li a{
-        text-decoration: none;
-    }
 
-    .footer-icons { 
-        .footer-icon{
+    .footer-icons {
+        .footer-icon {
             font-size: 35px;
         }
-        a+a{
-        padding-left: 10px;
+
+        a+a {
+            padding-left: 10px;
         }
     }
 
-    .footer-phone, .footer-email{
+    .footer-phone,
+    .footer-email {
         font-size: 20px;
         text-decoration: none;
-        &.footer-email{
+
+        &.footer-email {
             font-size: 15px;
         }
     }
@@ -38,41 +39,51 @@
     @media screen and (max-width: $break-small) {
         font-size: 16px;
         text-align: center;
+
         br {
             display: none;
         }
-        ul li{
+
+        ul li {
             padding-bottom: 10px;
-            &:first-child{
+
+            &:first-child {
                 padding-top: 20px;
             }
         }
-        h5{
+
+        h5 {
             font-size: 30px;
         }
-        .footer-phone, .footer-email{
-            &.footer-email{
+
+        .footer-phone,
+        .footer-email {
+            &.footer-email {
                 font-size: 18px;
                 padding-top: 10px;
             }
         }
     }
-    @media (min-width: $break-small) and (max-width: $break-med){
-        .footer-icons { 
-            .footer-icon{
+
+    @media (min-width: $break-small) and (max-width: $break-med) {
+        .footer-icons {
+            .footer-icon {
                 font-size: 28px;
             }
-            a+a{
-            padding-left: 10px;
+
+            a+a {
+                padding-left: 10px;
             }
         }
-        .footer-phone, .footer-email{
+
+        .footer-phone,
+        .footer-email {
             font-size: 15px;
-            &.footer-email{
+
+            &.footer-email {
                 font-size: 11px;
             }
         }
     }
 
 }
-
