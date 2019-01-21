@@ -10767,6 +10767,14 @@ ol {
   }
 }
 
+.margin-bottom-register {
+  margin-bottom: 8rem !important;
+}
+
+.margin-bottom-login {
+  margin-bottom: 13rem !important;
+}
+
 .admin-dashboard a {
   text-decoration: none;
   color: black;
@@ -10819,10 +10827,9 @@ ol {
   }
 }
 
-.page-link {
-  color: #fff;
-  background-color: black;
-  border-color: black;
+.page-item.active .page-link {
+  background-color: #B0B0B0;
+  border-color: #B0B0B0;
 }
 
 .sidebar-toggler {
