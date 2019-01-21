@@ -17,3 +17,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contact', 'ContactController@index');
 Route::get('/dashboard-admin', 'DashboardAdminController@index');
+Route::get('/product_categories','ProductCategoriesController@index');

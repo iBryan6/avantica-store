@@ -1,22 +1,19 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <br>
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">
-                    <h1>
-                        Contact Us
-                    </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint laborum optio rerum
-                        perferendis molestiae velit atque rem, delectus iusto debitis commodi mollitia molestias
-                        veritatis eum at voluptatem cupiditate fugiat?</p>
-                </div>
-
-                <div class="card-body">
-                    <form method="POST" action="">
+<div class="container mb-4 mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>
+                            Contact Us
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint laborum optio rerum perferendis molestiae velit atque rem, delectus iusto debitis commodi mollitia molestias veritatis eum at voluptatem cupiditate fugiat?</p>
+                    </div>
+    
+                    <div class="card-body">
+                        <form method="POST" action="">
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">Name</label>
