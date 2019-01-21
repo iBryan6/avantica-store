@@ -53,7 +53,7 @@
 
 <!-- MODAL -->
 <div class="modal" id="productsModal">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title">VIZIO 50” Class 4K Ultra HD (2160P) HDR Smart LED TV (D50x-G9)</h4>
@@ -62,16 +62,16 @@
             <div class="modal-body">
                 <h5>IMAGES</h5>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
                     </div>
                 </div>
