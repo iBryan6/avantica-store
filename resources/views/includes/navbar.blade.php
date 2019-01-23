@@ -13,11 +13,11 @@
         </form>
     </ul>
 </nav>
-<nav class="navbar navbar-expand-md navigation navbar-dark sticky-top nav-icon">
-
+<nav class="navbar navbar-expand-md navigation navbar-dark sticky-top">
     <a class="navbar-brand" href="{{ url('/') }}">
         <img src="images/unesco-new.png" alt="Store Logo">
     </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
         <span class="navbar-toggler-icon"></span>
@@ -87,7 +87,6 @@
         </ul>
     </div>
 
-
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto cartMenu">
         <ol>
@@ -120,6 +119,4 @@
         </li>
         @endguest
     </ul>
-    </div>
-
 </nav>
