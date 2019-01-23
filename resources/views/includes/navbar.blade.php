@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light justify-content-center top-navigation">
+<nav class="navbar navbar-expand navbar-light justify-content-center top-navigation">
     <div class="navbar-nav">
         <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
         <a class="nav-link" href="{{ route('login') }}"><i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
