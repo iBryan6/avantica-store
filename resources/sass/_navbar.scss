@@ -3,16 +3,7 @@
 }
 
 .top-navigation {
-    background-color: $tertiary-color;
-
-    ul li a {
-        color: $primary-color;
-    }
-
-    ul li a:hover {
-        color: $secondary-color !important;
-    }
-
+    background-color: $primary-color;
 }
 
 .cart-btn {
@@ -20,7 +11,7 @@
 }
 
 .navigation {
-    background-color: $primary-color;
+    background-color: black;
 
     ul li a {
         color: $primary-color;

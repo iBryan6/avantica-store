@@ -10492,7 +10492,7 @@ a.text-dark:focus {
 }
 
 .footer {
-  background-color: #445268;
+  background-color: black;
 }
 
 .footer a {
@@ -10582,15 +10582,7 @@ a.text-dark:focus {
 }
 
 .top-navigation {
-  background-color: white;
-}
-
-.top-navigation ul li a {
-  color: #445268;
-}
-
-.top-navigation ul li a:hover {
-  color: #B0B0B0 !important;
+  background-color: #445268;
 }
 
 .cart-btn {
@@ -10598,7 +10590,7 @@ a.text-dark:focus {
 }
 
 .navigation {
-  background-color: #445268;
+  background-color: black;
 }
 
 .navigation ul li a {
