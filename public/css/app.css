@@ -10739,9 +10739,8 @@ body h2 {
   }
 }
 
-.page-item.active .page-link {
-  background-color: #B0B0B0;
-  border-color: #B0B0B0;
+.pagination .page-link {
+  color: #445268;
 }
 
 .featured-products a {

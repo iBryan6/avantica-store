@@ -1,15 +1,3 @@
-.price-before {
-    text-decoration: line-through;
-}
-
-.price-now {
-    padding-left: 20px;
-    font-weight: bold;
-}
-
-//Responsive
-@media (max-width: $break-small) {
-    .img-hidden {
-        display: none;
-    }
+.pagination .page-link {
+    color: $primary-color;
 }
