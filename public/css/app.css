@@ -10492,7 +10492,7 @@ a.text-dark:focus {
 }
 
 .footer {
-  background-color: black;
+  background-color: #445268;
 }
 
 .footer a {
@@ -10586,7 +10586,7 @@ a.text-dark:focus {
 }
 
 .top-navigation ul li a {
-  color: black;
+  color: #445268;
 }
 
 .top-navigation ul li a:hover {
@@ -10598,11 +10598,11 @@ a.text-dark:focus {
 }
 
 .navigation {
-  background-color: black;
+  background-color: #445268;
 }
 
 .navigation ul li a {
-  color: black;
+  color: #445268;
   text-decoration: none;
 }
 
@@ -10689,7 +10689,7 @@ ol {
 
 .admin-dashboard a {
   text-decoration: none;
-  color: black;
+  color: #445268;
 }
 
 .admin-dashboard h2 {
@@ -10729,7 +10729,7 @@ ol {
 
 .admin-dashboard .modal-body .btn-link {
   font-weight: 400;
-  color: black;
+  color: #445268;
   text-decoration: none !important;
 }
 
@@ -10745,7 +10745,7 @@ ol {
 }
 
 .featured-products a {
-  color: black;
+  color: #445268;
 }
 
 .featured-products .price-before {
