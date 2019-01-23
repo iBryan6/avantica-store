@@ -7,7 +7,7 @@
     <section class="how-it-works container mt-5">
         <div class="row mb-4">
             <div class="col-sm">
-                <h1 class="centered">HOW IT WORKS</h1>
+                <h1 class="centered" style="color:black">HOW IT WORKS</h1>
             </div>
         </div>
         <div class="row centered">

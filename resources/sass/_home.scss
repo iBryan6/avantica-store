@@ -50,3 +50,12 @@
 .mt-login {
     margin-top: 6rem !important;
 }
+
+html,
+body {
+
+    h1,
+    h2 {
+        color: $primary-color;
+    }
+}
