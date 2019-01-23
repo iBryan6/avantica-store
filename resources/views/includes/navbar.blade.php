@@ -1,18 +1,11 @@
-<nav class="navbar navbar-expand-md top-navigation">
-    <ul class="navbar-nav navbar-brand ml-auto">
-        <li class="nav-item navbar-brand"> <a class="nav-link" href="/contact">Contact Us</a></li>
-        @if (Route::has('register'))
-        <li class="nav-item navbar-brand">
-            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-        </li>
-        @endif
-    </ul>
-    <ul class="navbar-nav ml-auto">
-        <form class="form-inline">
-            <input class="form-control mr-sm-2 input-lg searchnav" type="text" placeholder="Search" aria-label="Search">
-        </form>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-light justify-content-center top-navigation">
+    <div class="navbar-nav">        
+        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+        <a class="nav-link" href="/contact">Contact Us</a>
+    </div>
 </nav>
+
 <nav class="navbar navbar-expand-md navigation navbar-dark sticky-top">
     <a class="navbar-brand" href="{{ url('/') }}">
         <img src="images/unesco-new.png" alt="Store Logo">
@@ -89,30 +82,6 @@
 
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto cartMenu">
-        <!-- Authentication Links -->
-        @guest
-        <li class="nav-item loginMenu">
-            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-        </li>
-        @else
-        <li class="nav-item dropdown">
-            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" v-pre>
-                {{ Auth::user()->name }} <span class="caret"></span>
-            </a>
-
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                    {{ __('Logout') }}
-                </a>
-
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                    @csrf
-                </form>
-            </div>
-        </li>
-        @endguest
         <li>
             <button class="btn btn-secondary cart-btn" style="font-size:17px"><i class="fas fa-shopping-cart "></i>
                 Cart

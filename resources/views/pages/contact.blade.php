@@ -2,19 +2,19 @@
 
 @section('content')
 <div class="container mb-4 mt-4">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">
-                        <h1>
-                            Contact Us
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint laborum optio rerum perferendis molestiae velit atque rem, delectus iusto debitis commodi mollitia molestias veritatis eum at voluptatem cupiditate fugiat?</p>
-                    </div>
-    
-                    <div class="card-body">
-                        <form method="POST" action="">
-
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h1>
+                        Contact Us
+                    </h1>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint laborum optio rerum
+                            perferendis molestiae velit atque rem, delectus iusto debitis commodi mollitia molestias
+                            veritatis eum at voluptatem cupiditate fugiat?</p>
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">Name<label style="color:red">*</label></label>
                             <div class="col-md-6">
@@ -29,7 +29,8 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}<label style="color:red">*</label></label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}<label
+                                    style="color:red">*</label></label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}"
@@ -52,7 +53,8 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">Message<label style="color:red">*</label></label>
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">Message<label
+                                    style="color:red">*</label></label>
 
                             <div class="col-md-6">
                                 <textarea id="message" type="text" class="form-control" name="message" rows="8" cols="20"></textarea>
