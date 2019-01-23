@@ -3,6 +3,7 @@
 @section('content')
 <div class="home mb-3">
     @include('includes.slider')
+
     <section class="how-it-works container mt-5">
         <div class="row mb-4">
             <div class="col-sm">
