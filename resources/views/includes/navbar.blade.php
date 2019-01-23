@@ -31,7 +31,7 @@
                 <br>
             </li>
             <li>
-                <a href="/product_categories" class="nav-link font-weight-bold"><i class="fas fa-store"></i> VIEW STORE</a>
+                <a href="{{ url('/store') }}" class="nav-link font-weight-bold"><i class="fas fa-store"></i> VIEW STORE</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Food

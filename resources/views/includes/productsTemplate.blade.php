@@ -1,13 +1,13 @@
 <div class="card">    
     <div class="card-header">
-        <a href="/product">
+        <a href="/productDetails">
             <h5 class="card-title" style="float:left;">Milk Pil</h5>
         </a>
         <a href="#">
             <i class="fas fa-cart-plus fa-2x" style="float:right;"></i>
         </a>
     </div>
-    <a href="/product">
+    <a href="/productDetails">
         <img class="card-img-top" src="images/lechepil.png" alt="Card image placeholder">
     </a>
     <div class="card-body">

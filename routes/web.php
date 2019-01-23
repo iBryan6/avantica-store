@@ -11,11 +11,9 @@
 |
 */
 
-Route::get('/', 'HomepageController@index');
+Route::get('/', 'PagesController@home');
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/contact', 'ContactController@index');
-Route::get('/dashboard-admin', 'DashboardAdminController@index');
-Route::get('/product_categories','ProductCategoriesController@index');
-Route::get('/product','ProductController@index');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/dashboard-admin', 'PagesController@dashboardAdmin');
+Route::get('/store','PagesController@store');
+Route::get('/productDetails','PagesController@productDetails');
