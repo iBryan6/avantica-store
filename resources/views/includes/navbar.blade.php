@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand justify-content-center navbar-dark top-navigation">
-    <div class="navbar-nav">
+<nav class="navbar navbar-expand justify-content-center navbar-dark top-navigation py-0">
+    <div class="navbar-nav py-0">
         <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
         <a class="nav-link" href="{{ route('login') }}"><i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
         <a class="nav-link" href="/contact"><i class="fas fa-file-signature"></i> Contact Us</a>
