@@ -89,16 +89,11 @@
 
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto cartMenu">
-        <ol>
-            <button class="btn btn-secondary cart-btn" style="font-size:17px"><i class="fas fa-shopping-cart "></i>
-                Cart
-                Items</button>
-            <!-- Authentication Links -->
-            @guest
-            <li class="nav-item loginMenu">
-                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-            </li>
-        </ol>
+        <!-- Authentication Links -->
+        @guest
+        <li class="nav-item loginMenu">
+            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+        </li>
         @else
         <li class="nav-item dropdown">
             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -118,5 +113,10 @@
             </div>
         </li>
         @endguest
+        <li>
+            <button class="btn btn-secondary cart-btn" style="font-size:17px"><i class="fas fa-shopping-cart "></i>
+                Cart
+                Items</button>
+        </li>
     </ul>
 </nav>
