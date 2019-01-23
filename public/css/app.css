@@ -10687,6 +10687,13 @@ ol {
   margin-top: 6rem !important;
 }
 
+html h1,
+html h2,
+body h1,
+body h2 {
+  color: #445268;
+}
+
 .admin-dashboard a {
   text-decoration: none;
   color: #445268;
