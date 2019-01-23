@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light justify-content-center top-navigation">
-    <div class="navbar-nav">        
-        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-        <a class="nav-link" href="/contact">Contact Us</a>
+    <div class="navbar-nav">
+        <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
+        <a class="nav-link" href="{{ route('login') }}"><i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
+        <a class="nav-link" href="/contact"><i class="fas fa-file-signature"></i> Contact Us</a>
     </div>
 </nav>
 
@@ -20,14 +20,14 @@
         <!-- Left Side Of Navbar -->
         <ul class="navbar-nav">
             <li class="nav-item dropdown hidden">
-                <input class="form-control mr-sm-2 input-lg searchnav" type="text" placeholder="Search" aria-label="Search">
+                <input class="form-control input-lg searchnav mt-4" type="text" placeholder="Search" aria-label="Search">
                 <br>
-                <button class="btn btn-secondary" style="float:right;"><i class="fas fa-shopping-cart"></i>Cart
+                <button class="btn btn-secondary" style="float:right;"><i class="fas fa-shopping-cart"></i> Cart
                     Items</button>
                 <br>
-                <a class="nav-link" href="/contact">Contact Us</a>
-                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
+                <a class="nav-link" href="{{ route('login') }}"><i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
+                <a class="nav-link" href="/contact"><i class="fas fa-file-signature"></i> Contact Us</a>
                 <br>
             </li>
             <li>
@@ -82,10 +82,8 @@
 
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto cartMenu">
-        <li>
-            <button class="btn btn-secondary cart-btn" style="font-size:17px"><i class="fas fa-shopping-cart "></i>
-                Cart
-                Items</button>
-        </li>
+        <li class="mr-3"><input class="form-control input-lg searchnav" type="text" placeholder="Search" aria-label="Search"></li>
+        <li><button class="btn btn-secondary cart-btn" style="font-size:17px"><i class="fas fa-shopping-cart "></i>
+                Cart Items</button></li>
     </ul>
 </nav>
