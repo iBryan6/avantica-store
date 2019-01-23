@@ -10743,6 +10743,15 @@ body h2 {
   color: #445268;
 }
 
+.cart-item span {
+  color: black;
+  display: inline-flex;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
 .featured-products a {
   color: #445268;
 }
