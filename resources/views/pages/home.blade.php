@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="home mb-3">
-        @include('includes.slider')
-    <section class="how-it-works container">
-        <div class="row">
+    @include('includes.slider')
+    <section class="how-it-works container mt-5">
+        <div class="row mb-4">
             <div class="col-sm">
                 <h1 class="centered">HOW IT WORKS</h1>
             </div>
@@ -32,26 +32,27 @@
         </div>
     </section>
     <hr>
-    <section class="featured-products container">
-        <div class="row">
-            <div class="col-sm">
-                <h2 class="centered">FEATURED PRODUCTS</h2>
+    <section class="featured-products mt-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-sm">
+                    <h2 class="centered">FEATURED PRODUCTS</h2>
+                </div>
             </div>
-        </div>
-        <div class="row card-deck">
-            @include('includes.productsTemplate')
-            @include('includes.productsTemplate')
-            @include('includes.productsTemplate')
-        </div>
-        <div class="row mt-2">
-            <div class="col-sm">
-                <a href="/product_categories">
-                    <button class="btn btn-secondary float-right">
-                        View All Products
-                    </button>
-                </a>
+            <div class="row card-deck">
+                <div class="col-12 col-md-6 col-lg-4">@include('includes.productsTemplate')</div>
+                <div class="col-12 col-md-6 col-lg-4">@include('includes.productsTemplate')</div>
+                <div class="col-12 col-md-6 col-lg-4">@include('includes.productsTemplate')</div>
             </div>
-
+            <div class="row mt-4">
+                <div class="col-sm">
+                    <a href="/product_categories">
+                        <button class="btn btn-secondary float-right">
+                            View All Products
+                        </button>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
