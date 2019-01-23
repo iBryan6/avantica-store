@@ -47,7 +47,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-sm">
-                    <a href="/product_categories">
+                    <a href="/store">
                         <button class="btn btn-secondary float-right">
                             View All Products
                         </button>
