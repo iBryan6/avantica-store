@@ -34,7 +34,6 @@
                     </tr>
                 </tbody>
             </table>
-        <button type="button" class="btn btn-dark">Add Distributor</button>
     </div>
 
     {{-- MODAL --}}
