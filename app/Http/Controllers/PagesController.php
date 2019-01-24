@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class PagesController extends Controller
 {
     public function home()
@@ -26,14 +24,16 @@ class PagesController extends Controller
     {
         return view('pages.productDetails');
     }
-
-    public function dashboardDistributor(){
+    public function dashboardDistributor()
+    {
         return view('pages.dashboardDistributor');
     }
-    public function register(){
+    public function register()
+    {
         return view('pages.register');
     }
-    public function login(){
+    public function login()
+    {
         return view('pages.login');
     }
 }
