@@ -9,7 +9,7 @@
 
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="/home">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint laborum optio rerum
                             perferendis
                             molestiae velit atque rem, delectus iusto debitis commodi mollitia molestias veritatis eum
@@ -21,14 +21,8 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
+                                <input id="name" type="text" class="form-control"
                                     name="name" value="{{ old('name') }}" required autofocus>
-
-                                @if ($errors->has('name'))
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('name') }}</strong>
-                                </span>
-                                @endif
                             </div>
                         </div>
 
@@ -56,14 +50,8 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}"
+                                <input id="email" type="email" class="form-control"
                                     name="email" value="{{ old('email') }}" required>
-
-                                @if ($errors->has('email'))
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('email') }}</strong>
-                                </span>
-                                @endif
                             </div>
                         </div>
 
@@ -71,14 +59,8 @@
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"
+                                <input id="password" type="password" class="form-control"
                                     name="password" required>
-
-                                @if ($errors->has('password'))
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('password') }}</strong>
-                                </span>
-                                @endif
                             </div>
                         </div>
 

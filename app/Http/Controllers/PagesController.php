@@ -26,4 +26,14 @@ class PagesController extends Controller
     {
         return view('pages.productDetails');
     }
+
+    public function dashboardDistributor(){
+        return view('pages.dashboardDistributor');
+    }
+    public function register(){
+        return view('pages.register');
+    }
+    public function login(){
+        return view('pages.login');
+    }
 }

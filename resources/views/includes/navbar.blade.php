@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand justify-content-center navbar-dark top-navigation py-0">
     <div class="navbar-nav py-0">
-        <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
-        <a class="nav-link" href="{{ route('login') }}"><i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
+        <a class="nav-link" href="/register"><i class="fas fa-plus"></i> Register</a>
+        <a class="nav-link" href="/login"><i class="fas fa-user-lock"></i> Login</a>
         <a class="nav-link" href="/contact"><i class="fas fa-file-signature"></i> Contact Us</a>
     </div>
 </nav>
@@ -25,8 +25,8 @@
                 <button class="btn btn-secondary" style="float:right;"><i class="fas fa-shopping-cart"></i> Cart
                     Items</button>
                 <br>
-                <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
-                <a class="nav-link" href="{{ route('login') }}"><i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
+                <a class="nav-link" href="/register"><i class="fas fa-plus"></i> Register</a>
+                <a class="nav-link" href="/login"><i class="fas fa-user-lock"></i> Login</a>
                 <a class="nav-link" href="/contact"><i class="fas fa-file-signature"></i> Contact Us</a>
                 <br>
             </li>

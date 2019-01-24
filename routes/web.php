@@ -12,8 +12,10 @@
 */
 
 Route::get('/', 'PagesController@home');
-Auth::routes();
 Route::get('/contact', 'PagesController@contact');
 Route::get('/dashboard-admin', 'PagesController@dashboardAdmin');
 Route::get('/store','PagesController@store');
 Route::get('/productDetails','PagesController@productDetails');
+Route::get('/dashboard-distributor', 'PagesController@dashboardDistributor');
+Route::get('/register', 'PagesController@register');
+Route::get('/login', 'PagesController@login');
