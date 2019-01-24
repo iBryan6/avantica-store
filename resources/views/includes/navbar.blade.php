@@ -87,6 +87,6 @@
                 style="font-size:17px"><i class="fas fa-shopping-cart"></i>
                 Cart Items</button></li>
         </div>
-    @include('includes.cart_modal')
+    @include('includes.cart.cart_modal')
     </ul>
 </nav>
