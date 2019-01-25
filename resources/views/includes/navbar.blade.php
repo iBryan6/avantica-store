@@ -1,8 +1,7 @@
 <nav class="navbar navbar-expand justify-content-center navbar-dark top-navigation py-0">
     <div class="navbar-nav py-0">
-        <a class="nav-link" href="/register"><i class="fas fa-plus"></i> Register</a>
-        <a class="nav-link" href="/login"><i class="fas fa-user-lock"></i> Login</a>
         <a class="nav-link" href="/contact"><i class="fas fa-file-signature"></i> Contact Us</a>
+
     </div>
 </nav>
 
@@ -82,13 +81,41 @@
 
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto cartMenu">
-        <li class="mr-3"><input class="form-control input-lg searchnav" type="text" placeholder="Search" aria-label="Search"></li>
         <li>
             <button type="button" class="btn cart-btn" data-toggle="modal" data-target="#myModal" style="font-size:17px">
                 <i class="fas fa-shopping-cart"></i>
                 Cart Items
             </button>
         </li>
+        <li class="ml-3 mr-3"><input class="form-control input-lg searchnav" type="text" placeholder="Search" aria-label="Search"></li>
+        @guest
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('login') }}"> <i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
+        </li>
+        @if (Route::has('register'))
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
+        </li>
+        @endif
+        @else
+        <li class="nav-item dropdown">
+            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" v-pre>
+                {{ Auth::user()->name }} <span class="caret"></span>
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
+        </li>
+        @endguest
     </ul>
 </nav>
 @include('includes.cart.cart_modal')
