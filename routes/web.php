@@ -19,3 +19,6 @@ Route::get('/productDetails','PagesController@productDetails');
 Route::get('/dashboard-distributor', 'PagesController@dashboardDistributor');
 Route::get('/register', 'PagesController@register');
 Route::get('/login', 'PagesController@login');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
