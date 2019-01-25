@@ -10577,6 +10577,21 @@ a.text-dark:focus {
   }
 }
 
+.navigation {
+  background-color: black;
+}
+
+.navigation .cartMenu .cart-btn {
+  background-color: #445268;
+  border-color: #445268;
+  color: white;
+}
+
+.navigation ul li a {
+  color: #445268;
+  text-decoration: none;
+}
+
 .hidden {
   display: none;
 }
@@ -10584,19 +10599,6 @@ a.text-dark:focus {
 .top-navigation {
   background-color: #445268;
   font-size: 14px;
-}
-
-.cart-btn {
-  background-color: #B0B0B0;
-}
-
-.navigation {
-  background-color: black;
-}
-
-.navigation ul li a {
-  color: #445268;
-  text-decoration: none;
 }
 
 .navbar-dark .navbar-nav .nav-link {

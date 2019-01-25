@@ -83,10 +83,12 @@
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto cartMenu">
         <li class="mr-3"><input class="form-control input-lg searchnav" type="text" placeholder="Search" aria-label="Search"></li>
-        <li><button type="button" class="btn btn-primary mybtn cart-btn" data-toggle="modal" data-target="#myModal"
-                style="font-size:17px"><i class="fas fa-shopping-cart"></i>
-                Cart Items</button></li>
-        </div>
-    @include('includes.cart.cart_modal')
+        <li>
+            <button type="button" class="btn cart-btn" data-toggle="modal" data-target="#myModal" style="font-size:17px">
+                <i class="fas fa-shopping-cart"></i>
+                Cart Items
+            </button>
+        </li>
     </ul>
 </nav>
+@include('includes.cart.cart_modal')
