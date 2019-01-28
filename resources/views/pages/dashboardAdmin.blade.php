@@ -4,7 +4,7 @@
 <section class="admin-dashboard">
     <div class="row">
         <div class="col-sm">
-            <ul class="navbar-nav float-right">
+            <ul class="navbar-nav float-right mt-2 mb-4">
                 @guest
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('login') }}"> <i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
