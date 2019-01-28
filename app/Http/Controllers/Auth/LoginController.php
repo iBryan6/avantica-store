@@ -27,8 +27,17 @@ class LoginController extends Controller
      * @var string
      */
     
-    protected $redirectTo = '/';
+    public function redirectPath()
+    {
+        if (\Auth::user()->hasRole('distributor')) {
+            return "/dashboard-distributor";
 
+        }elseif(\Auth::user()->hasRole('admin')){
+            return "/dashboard-admin";
+        }
+
+        return "/";
+    }
     /**
      * Create a new controller instance.
      *

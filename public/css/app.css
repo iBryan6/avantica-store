@@ -16386,6 +16386,11 @@ body h2 {
   font-size: 18px;
 }
 
+.errors {
+  margin-bottom: 13rem;
+  margin-top: 13rem;
+}
+
 .featured-products a {
   color: #445268;
 }
