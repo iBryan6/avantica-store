@@ -1,36 +1,35 @@
 <div class="tab-pane fade show active table-responsive" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
     <h2>LAST ORDERS</h2>
-    <table class="table table-hover">
-        <thead class="dashboard-thead">
+    <table id="myTable" class="table table-striped table-bordered" style="width:100%">
+        <thead>
             <tr>
-                <th scope="col">Order Code</th>
-                <th scope="col">Client</th>
-                <th scope="col">Distributor</th>
-                <th scope="col">Status</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
             </tr>
         </thead>
         <tbody>
-            <tr data-toggle="modal" data-id="1" data-target="#orderModal">
-                <th scope="row">1</th>
-                <td>Mark Otto</td>
-                <td>Jack Nicholson</td>
-                <td style="color:green;">Completed</td>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
             </tr>
             <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td style="color:red;">Pending</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>The Bird</td>
-                <td style="color:red;">Pending</td>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170,750</td>
             </tr>
         </tbody>
     </table>
-    <button type="button" class="btn btn-dark">Search Order</button>
 </div>
 <!-- MODAL -->
 <div class="modal" id="orderModal">
