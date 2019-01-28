@@ -6,13 +6,13 @@
                 <th>Name</th>
             </tr>
         </thead>
-        @foreach ($users as $user)
+{{--         @foreach ($users as $username)
         <tbody>
             <tr>
-                <td>{{$user->name}}</td>
+                <td>{{$username->name}}</td>
             </tr>
         </tbody>
-        @endforeach
+        @endforeach --}}
     </table>
 </div>
 <!-- MODAL -->
