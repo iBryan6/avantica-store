@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Database\Seeder;
-use App\UserType;
 use App\User;
+use App\UserType;
+use Illuminate\Database\Seeder;
 
 class UserTableSeeder extends Seeder
 {
@@ -13,17 +13,17 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        $role_user = UserType::where('name','user')->first();
-        $role_admin = UserType::where('name','admin')->first();
-        $role_distributor = UserType::where('name','distributor')->first();
+        $role_user = UserType::where('name', 'user')->first();
+        $role_admin = UserType::where('name', 'admin')->first();
+        $role_distributor = UserType::where('name', 'distributor')->first();
 
         $user = new User();
         $user->username = "Bryan Admin";
-        $user->name = "Admin TEST";
-        $user->last_name = "Argandoña TEST";
-        $user->address = "Direccion test";
-        $user->email = "admin@gmail.com";
-        $user->phone_number = "00000000";
+        $user->name = "Bryan";
+        $user->last_name = "Argandoña";
+        $user->address = "Bella Vista N-8";
+        $user->email = "dennis_Bryan@hotmail.com";
+        $user->phone_number = "76953543";
         $user->password = bcrypt('123456');
         $user->save();
         $user->roles()->attach($role_admin);
@@ -49,7 +49,6 @@ class UserTableSeeder extends Seeder
         $user->password = bcrypt('javier');
         $user->save();
         $user->roles()->attach($role_distributor);
-
 
     }
 }
