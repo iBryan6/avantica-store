@@ -44,6 +44,10 @@
                 aria-selected="true">Dashboard</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" id="users-tab" data-toggle="tab" href="#users" role="tab" aria-controls="users"
+                aria-selected="false">Users</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" id="distributors-tab" data-toggle="tab" href="#distributors" role="tab" aria-controls="distributors"
                 aria-selected="false">Distributors</a>
         </li>
@@ -57,6 +61,9 @@
     <div class="tab-content" id="dashboardTab">
         <!-- DASHBOARD -->
         @include('includes.dashboardAdmin.dashboard')
+
+        <!-- USERS -->
+        @include('includes.dashboardAdmin.users')
 
         <!-- DISTRIBUTORS -->
         @include('includes.dashboardAdmin.distributors')

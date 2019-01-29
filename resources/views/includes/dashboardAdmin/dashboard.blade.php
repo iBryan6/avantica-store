@@ -1,18 +1,13 @@
 <div class="tab-pane fade show active table-responsive" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
     <h2>LAST ORDERS</h2>
-    <table id="myTable" class="table table-striped table-bordered" style="width:100%">
+    <table class="table table-striped table-bordered" id="">
         <thead>
             <tr>
+                <th>Id</th>
                 <th>Name</th>
+                <th>Email</th>
             </tr>
         </thead>
-        {{-- @foreach ($users as $username)
-        <tbody>
-            <tr>
-                <td>{{$username->name}}</td>
-            </tr>
-        </tbody>
-        @endforeach --}}
     </table>
 </div>
 <!-- MODAL -->
