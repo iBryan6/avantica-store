@@ -12,7 +12,7 @@
             </tr>
         </thead>
     </table>
-    <button type="button" class="btn btn-dark">Add Distributor</button>
+    <button type="button" class="btn btn-dark mt-3">Add Distributor</button>
 </div>
 
 <!-- MODAL -->
