@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="row mr-4 mb-4 mt-2">
+<div class="row mr-4 mb-4 mt-4 ml-2">
     <div class="col-md mt-3">
-        <div class="container">
+        <div class="container mt-4 mb-4">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Food</a></li>
@@ -12,7 +12,7 @@
                     <li class="breadcrumb-item active" aria-current="page">Chocolatada</li>
                 </ol>
             </nav>
-            <div class="row ml-1 mt-2">
+            <div class="row ml-1 mt-2 mr-3">
                 <div class="col">
                     <div class="row mt-2">
                         <div class="col-6 col-sm-3 col-md-4 col-lg-6">

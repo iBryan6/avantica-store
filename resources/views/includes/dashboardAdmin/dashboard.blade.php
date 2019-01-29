@@ -6,7 +6,7 @@
                 <th>Name</th>
             </tr>
         </thead>
-{{--         @foreach ($users as $username)
+        {{-- @foreach ($users as $username)
         <tbody>
             <tr>
                 <td>{{$username->name}}</td>

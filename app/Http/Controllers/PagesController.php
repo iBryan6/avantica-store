@@ -22,10 +22,7 @@ class PagesController extends Controller
     {
         return view('pages.store');
     }
-    public function productDetails()
-    {
-        return view('pages.productDetails');
-    }
+    
     public function dashboardDistributor(Request $request)
     {
         $request->user()->authorizeRoles('distributor');
