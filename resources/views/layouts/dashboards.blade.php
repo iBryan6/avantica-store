@@ -38,8 +38,7 @@
                 { data: 'last_name'},
                 { data: 'address'},
                 { data: 'email'},
-                { data: 'phone_number'},
-                { data: 'created_at'}
+                { data: 'phone_number'}
             ]
         });        
     });

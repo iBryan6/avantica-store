@@ -10,7 +10,6 @@
                 <th>Address</th>
                 <th>Email</th>
                 <th>Phone Number</th>
-                <th>Date Created</th>
             </tr>
         </thead>
     </table>

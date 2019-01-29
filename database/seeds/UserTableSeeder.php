@@ -61,7 +61,7 @@ class UserTableSeeder extends Seeder
             $user->last_name = "User $i";
             $user->address = "Direccion test";
             $user->email = "user$i@gmail.com";
-            $user->phone_number = "123456$i";
+            $user->phone_number = "132456$i";
             $user->password = bcrypt('123456');
             $user->save();
             $user->roles()->attach($role_user);
@@ -75,7 +75,7 @@ class UserTableSeeder extends Seeder
             $user->last_name = "Admin $i";
             $user->address = "Direccion test";
             $user->email = "admin$i@gmail.com";
-            $user->phone_number = "12345678$i";
+            $user->phone_number = "123421678$i";
             $user->password = bcrypt('123456');
             $user->save();
             $user->roles()->attach($role_admin);
