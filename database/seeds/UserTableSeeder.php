@@ -1,6 +1,6 @@
 <?php
 
-use App\User;
+use App\Model\User;
 use App\UserType;
 use Illuminate\Database\Seeder;
 
@@ -13,9 +13,6 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        $role_user = UserType::where('name', 'user')->first();
-        $role_admin = UserType::where('name', 'admin')->first();
-        $role_distributor = UserType::where('name', 'distributor')->first();
 
         //A 1
         $user = new User();
@@ -26,8 +23,8 @@ class UserTableSeeder extends Seeder
         $user->email = "dennis_Bryan@hotmail.com";
         $user->phone_number = "76953543";
         $user->password = bcrypt('123456');
+        $user->id_user_type = 1;
         $user->save();
-        $user->roles()->attach($role_admin);
 
         //U 1
         $user = new User();
@@ -38,8 +35,8 @@ class UserTableSeeder extends Seeder
         $user->email = "user@gmail.com";
         $user->phone_number = "60380815";
         $user->password = bcrypt('cuajolote');
+        $user->id_user_type = 2;
         $user->save();
-        $user->roles()->attach($role_user);
 
         //D 1
         $user = new User();
@@ -50,8 +47,8 @@ class UserTableSeeder extends Seeder
         $user->email = "distributor@gmail.com";
         $user->phone_number = "11111111";
         $user->password = bcrypt('javier');
+        $user->id_user_type = 3;
         $user->save();
-        $user->roles()->attach($role_distributor);
 
         //for to create users
         for ($i=0; $i < 100 ; $i++) { 
@@ -63,8 +60,8 @@ class UserTableSeeder extends Seeder
             $user->email = "user$i@gmail.com";
             $user->phone_number = "132456$i";
             $user->password = bcrypt('123456');
+            $user->id_user_type = 2;
             $user->save();
-            $user->roles()->attach($role_user);
         }
 
         //for to create admins
@@ -77,8 +74,8 @@ class UserTableSeeder extends Seeder
             $user->email = "admin$i@gmail.com";
             $user->phone_number = "123421678$i";
             $user->password = bcrypt('123456');
+            $user->id_user_type = 1;
             $user->save();
-            $user->roles()->attach($role_admin);
         }
 
         //for to create distributors
@@ -91,11 +88,10 @@ class UserTableSeeder extends Seeder
             $user->email = "distributor$i@gmail.com";
             $user->phone_number = "1234567$i";
             $user->password = bcrypt('123456');
+            $user->id_user_type = 3;
             $user->save();
-            $user->roles()->attach($role_distributor);
+
+           
         }
-
-        
-
     }
 }

@@ -29,10 +29,10 @@ class LoginController extends Controller
     
     public function redirectPath()
     {
-        if (\Auth::user()->hasRole('distributor')) {
+        if (\Auth::user()->id_user_type==2) {
             return "/dashboard-distributor";
 
-        }elseif(\Auth::user()->hasRole('admin')){
+        }elseif(\Auth::user()->id_user_type==1){
             return "/dashboard-admin";
         }
 
