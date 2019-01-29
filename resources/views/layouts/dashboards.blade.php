@@ -42,7 +42,8 @@
                 { data: 'phone_number'}
             ]
         });     
-                $('#distributors-table').DataTable({
+        
+        $('#distributors-table').DataTable({
             processing: true,
             serverSide: true,
             ajax: '{!! route('users.getDistributors') !!}',

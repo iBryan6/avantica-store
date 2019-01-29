@@ -1,7 +1,7 @@
 <div class="tab-pane fade table-responsive" id="distributors" role="tabpanel" aria-labelledby="distributors-tab">
     <h2>DISTRIBUTORS</h2>
-    <table class="table table-striped table-bordered" id="distributors-table" style="width:100%">
-        <thead>
+    <table class="table table-bordered table-hover" id="distributors-table" style="width:100%">
+        <thead class="thead-dark">
             <tr>
                 <th>#</th>
                 <th>Sur names</th>
