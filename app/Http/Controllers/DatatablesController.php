@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
 use DataTables;
+use DB;
 
 class DatatablesController extends Controller
 {
     public function getUsers()
     {
-        return Datatables::of(User::query())->make(true);
+        $query = DB::select('SELECT * FROM users INNER JOIN role_user WHERE users.id = role_user.user_id AND role_user.user_type_id =?', [2]);
+        return Datatables::of($query)->make(true);
     }
 }
