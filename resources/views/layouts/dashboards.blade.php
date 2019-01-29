@@ -27,6 +27,7 @@
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 <script>
     $(document).ready(function() {
+  
         $('#users-table').DataTable({
             processing: true,
             serverSide: true,
@@ -40,7 +41,20 @@
                 { data: 'email'},
                 { data: 'phone_number'}
             ]
-        });        
+        });     
+                $('#distributors-table').DataTable({
+            processing: true,
+            serverSide: true,
+            ajax: '{!! route('users.getDistributors') !!}',
+            columns: [
+                { data: 'id'},
+                { data: 'name'},
+                { data: 'last_name'},
+                { data: 'address'},
+                { data: 'email'},
+                { data: 'phone_number'}
+            ]
+        });     
     });
 
 </script>

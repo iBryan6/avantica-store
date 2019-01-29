@@ -25,4 +25,5 @@ Route::get('/login', 'PagesController@login');
 Auth::routes();
 
 //DATATABLES
-Route::get('datatables', 'DatatablesController@getUsers')->name('users.getusers');
+Route::get('users', 'DatatablesController@getUsers')->name('users.getusers');
+Route::get('distributors', 'DatatablesController@getDistributors')->name('users.getDistributors');
