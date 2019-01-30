@@ -1,7 +1,6 @@
 <?php
 
 use App\User;
-use App\UserType;
 use Illuminate\Database\Seeder;
 
 class UserTableSeeder extends Seeder
@@ -22,7 +21,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Bella Vista N-8";
         $user->email = "dennis_Bryan@hotmail.com";
         $user->phone_number = "76953543";
-        $user->id_city = random_int(1,50);
+        $user->id_city = random_int(1, 50);
         $user->password = bcrypt('123456');
         $user->id_user_type = 1;
         $user->save();
@@ -35,7 +34,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Direccion test";
         $user->email = "user@gmail.com";
         $user->phone_number = "60380815";
-        $user->id_city = random_int(1,50);
+        $user->id_city = random_int(1, 50);
         $user->password = bcrypt('cuajolote');
         $user->id_user_type = 2;
         $user->save();
@@ -43,18 +42,18 @@ class UserTableSeeder extends Seeder
         //D 1
         $user = new User();
         $user->username = "Javier Distr";
-        $user->name = "Distributor";
+        $user->name = "Javier";
         $user->last_name = "Stambuck";
         $user->address = "Direccion test";
         $user->email = "distributor@gmail.com";
         $user->phone_number = "11111111";
-        $user->id_city = random_int(1,50);
+        $user->id_city = random_int(1, 50);
         $user->password = bcrypt('javier');
         $user->id_user_type = 3;
         $user->save();
 
         //for to create users
-        for ($i=0; $i < 100 ; $i++) { 
+        for ($i = 0; $i < 100; $i++) {
             $user = new User();
             $user->username = "User $i";
             $user->name = "User $i";
@@ -62,14 +61,14 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "user$i@gmail.com";
             $user->phone_number = "132456$i";
-            $user->id_city = random_int(1,50);
+            $user->id_city = random_int(1, 50);
             $user->password = bcrypt('123456');
             $user->id_user_type = 2;
             $user->save();
         }
 
         //for to create admins
-        for ($i=0; $i < 20 ; $i++) { 
+        for ($i = 0; $i < 20; $i++) {
             $user = new User();
             $user->username = "Admin $i";
             $user->name = "Admin $i";
@@ -77,14 +76,14 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "admin$i@gmail.com";
             $user->phone_number = "123421678$i";
-            $user->id_city = random_int(1,50);
+            $user->id_city = random_int(1, 50);
             $user->password = bcrypt('123456');
             $user->id_user_type = 1;
             $user->save();
         }
 
         //for to create distributors
-        for ($i=0; $i < 80 ; $i++) { 
+        for ($i = 0; $i < 80; $i++) {
             $user = new User();
             $user->username = "Distributor $i";
             $user->name = "Distributor $i";
@@ -92,12 +91,11 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "distributor$i@gmail.com";
             $user->phone_number = "1234567$i";
-            $user->id_city = random_int(1,50);
+            $user->id_city = random_int(1, 50);
             $user->password = bcrypt('123456');
             $user->id_user_type = 3;
             $user->save();
 
-           
         }
     }
 }

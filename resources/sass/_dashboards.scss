@@ -1,4 +1,9 @@
 .admin-dashboard {
+    .page-item.active .page-link {
+        background-color: black !important;
+        border-color: black !important;
+    }
+
     a {
         text-decoration: none;
         color: $primary-color;

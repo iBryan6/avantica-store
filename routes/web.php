@@ -24,5 +24,7 @@ Route::get('/login', 'PagesController@login');
 //LARAVEL AUTHENTICATIONS
 Auth::routes();
 
-//DATATABLES
-Route::get('datatables', 'DatatablesController@getUsers')->name('users.getusers');
+//ADMIN DATATABLES
+Route::get('users', 'DatatablesController@getUsers')->name('users.getusers');
+
+Route::get('distributors', 'DatatablesController@getDistributors')->name('users.getdistributors');

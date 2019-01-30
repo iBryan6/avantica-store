@@ -1,40 +1,18 @@
 <div class="tab-pane fade table-responsive" id="distributors" role="tabpanel" aria-labelledby="distributors-tab">
     <h2>DISTRIBUTORS</h2>
-    <table class="table table-hover">
-        <thead class="dashboard-thead">
+    <table class="table table-hover table-bordered" id="distributors-table" style="width:100%">
+        <thead class="table-dark">
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">Full Name</th>
-                <th scope="col">City</th>
-                <th scope="col">Email</th>
-                <th scope="col">Phone Number</th>
+                <th>#</th>
+                <th>Sur Names</th>
+                <th>Last Names</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Phone Number</th>
             </tr>
         </thead>
-        <tbody>
-            <tr data-toggle="modal" data-id="1" data-target="#distributorModal">
-                <th scope="row">1</th>
-                <td>Mark Otto</td>
-                <td>Cochabamba</td>
-                <td>Mark_Otto@gmail.com</td>
-                <td>+591 72700090</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob Thornton</td>
-                <td>Cochabamba</td>
-                <td>JThornton6@gmail.com</td>
-                <td>+591 72704533</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry the Bird</td>
-                <td>Cochabamba</td>
-                <td>LtBird@gmail.com</td>
-                <td>+591 72751090</td>
-            </tr>
-        </tbody>
     </table>
-    <button type="button" class="btn btn-dark">Add Distributor</button>
+    <button type="button" class="btn btn-dark mt-4 mb-4">Add Distributor</button>
 </div>
 
 <!-- MODAL -->
