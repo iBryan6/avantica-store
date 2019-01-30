@@ -14,17 +14,17 @@ class OrderTableSeeder extends Seeder
     {
         $order = new Order();
         $order->id_user = 2;
-        $order->date = '01/30/2019';
+        $order->code = str_random(12);
         $order->save();
 
         $order = new Order();
         $order->id_user = 5;
-        $order->date = '01/28/2019';
+        $order->code = str_random(12);
         $order->save();
 
         $order = new Order();
         $order->id_user = 7;
-        $order->date = '02/01/2019';
+        $order->code = str_random(12);
         $order->save();
     }
 }
