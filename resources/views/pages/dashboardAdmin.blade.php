@@ -58,7 +58,7 @@
     </ul>
 
     <!-- TABLES -->
-    <div class="tab-content" id="dashboardTab">
+    <div class="tab-content row" id="dashboardTab">
         <!-- DASHBOARD -->
         @include('includes.dashboardAdmin.dashboard')
 

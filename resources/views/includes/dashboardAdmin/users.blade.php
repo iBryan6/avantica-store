@@ -7,6 +7,7 @@
                 <th>Username</th>
                 <th>Sur Names</th>
                 <th>Last Names</th>
+                <th>City</th>
                 <th>Address</th>
                 <th>Email</th>
                 <th>Phone Number</th>

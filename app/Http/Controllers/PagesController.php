@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Http\Request;
+
 use App\User;
+use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
@@ -23,7 +24,7 @@ class PagesController extends Controller
     {
         return view('pages.store');
     }
-    
+
     public function dashboardDistributor(Request $request)
     {
         $request->user()->authorizeRoles(3);

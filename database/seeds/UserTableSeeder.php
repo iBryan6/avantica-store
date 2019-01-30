@@ -13,7 +13,7 @@ class UserTableSeeder extends Seeder
     public function run()
     {
 
-        //A 12
+        //ADMINISTRADOR
         $user = new User();
         $user->username = "Bryan Admin";
         $user->name = "Bryan";
@@ -26,7 +26,7 @@ class UserTableSeeder extends Seeder
         $user->id_user_type = 1;
         $user->save();
 
-        //U 1
+        //CLIENTE
         $user = new User();
         $user->username = "Cuajolote User";
         $user->name = "Renato User";
@@ -34,12 +34,12 @@ class UserTableSeeder extends Seeder
         $user->address = "Direccion test";
         $user->email = "user@gmail.com";
         $user->phone_number = "60380815";
-        $user->id_city = random_int(1,9);
+        $user->id_city = random_int(1, 9);
         $user->password = bcrypt('cuajolote');
         $user->id_user_type = 2;
         $user->save();
 
-        //D 1
+        //DISTRIBUTOR
         $user = new User();
         $user->username = "Javier Distr";
         $user->name = "Javier";
@@ -47,7 +47,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Direccion test";
         $user->email = "distributor@gmail.com";
         $user->phone_number = "11111111";
-        $user->id_city = random_int(1,9);
+        $user->id_city = random_int(1, 9);
         $user->password = bcrypt('javier');
         $user->id_user_type = 3;
         $user->save();
@@ -61,7 +61,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "user$i@gmail.com";
             $user->phone_number = "132456$i";
-            $user->id_city = random_int(1,9);
+            $user->id_city = random_int(1, 9);
             $user->password = bcrypt('123456');
             $user->id_user_type = 2;
             $user->save();
@@ -76,7 +76,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "admin$i@gmail.com";
             $user->phone_number = "123421678$i";
-            $user->id_city = random_int(1,9);
+            $user->id_city = random_int(1, 9);
             $user->password = bcrypt('123456');
             $user->id_user_type = 1;
             $user->save();
@@ -91,7 +91,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "distributor$i@gmail.com";
             $user->phone_number = "1234567$i";
-            $user->id_city = random_int(1,9);
+            $user->id_city = random_int(1, 9);
             $user->password = bcrypt('123456');
             $user->id_user_type = 3;
             $user->save();

@@ -1,52 +1,18 @@
 <div class="tab-pane fade table-responsive" id="products" role="tabpanel" aria-labelledby="products-tab">
     <h2>PRODUCTS</h2>
-    <table class="table table-hover">
-        <thead class="dashboard-thead">
+    <table class="table table-hover table-bordered" id="products-table" style="width:100%">
+        <thead class="table-dark">
             <tr>
-                <th scope="col">Code</th>
-                <th scope="col">Name</th>
-                <th scope="col">Brand</th>
-                <th scope="col">Type</th>
-                <th scope="col">Category</th>
-                <th scope="col">Stock</th>
-                <th scope="col">Price</th>
-                <th scope="col">Discount</th>
+                <th>#</th>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Type</th>
+                <th>Category</th>
+                <th>Stock</th>
+                <th>Price</th>
             </tr>
         </thead>
-        <tbody>
-            <tr data-toggle="modal" data-id="1" data-target="#productsModal">
-                <th scope="row">1651220FD</th>
-                <td>VIZIO 50” Class 4K Ultra HD (2160P) HDR Smart LED TV (D50x-G9)</td>
-                <td>VIZIO</td>
-                <td>Tv's</td>
-                <td>Electronics</td>
-                <td>150</td>
-                <td>$298.00</td>
-                <td>32%</td>
-            </tr>
-            <tr>
-                <th scope="row">571555252</th>
-                <td>Straight Talk Samsung Galaxy S8 Prepaid Smartphone (Limit 2) Sales of Prepaid Phones are restricted
-                    to no more than (2) devices per customer within a 21-day period (across Brands)</td>
-                <td>Samsung</td>
-                <td>Cellphones</td>
-                <td>Electronics</td>
-                <td>1200</td>
-                <td>$599.99</td>
-                <td>0%</td>
-            </tr>
-            <tr>
-                <th scope="row">1651220FD</th>
-                <td>Dell G3 Gaming Laptop 15.6" Full HD, Intel Core i7-8750H, NVIDIA GeForce GTX 1050 Ti 4GB, 1TB HDD +
-                    128GB SSD, 8GB RAM, Windows 10 - Alpine White - G3579-7054WHT Gaming bundle included</td>
-                <td>Dell</td>
-                <td>Laptops</td>
-                <td>Electronics</td>
-                <td>150</td>
-                <td>$829.99</td>
-                <td>7%</td>
-            </tr>
-        </tbody>
     </table>
     <button type="button" class="btn btn-dark">Add Product</button>
 </div>
