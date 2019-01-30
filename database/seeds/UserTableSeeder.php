@@ -22,7 +22,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Bella Vista N-8";
         $user->email = "dennis_Bryan@hotmail.com";
         $user->phone_number = "76953543";
-        $user->id_city = random_int(1,50);
+        $user->id_city = random_int(1,9);
         $user->password = bcrypt('123456');
         $user->id_user_type = 1;
         $user->save();
@@ -35,7 +35,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Direccion test";
         $user->email = "user@gmail.com";
         $user->phone_number = "60380815";
-        $user->id_city = random_int(1,50);
+        $user->id_city = random_int(1,9);
         $user->password = bcrypt('cuajolote');
         $user->id_user_type = 2;
         $user->save();
@@ -48,7 +48,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Direccion test";
         $user->email = "distributor@gmail.com";
         $user->phone_number = "11111111";
-        $user->id_city = random_int(1,50);
+        $user->id_city = random_int(1,9);
         $user->password = bcrypt('javier');
         $user->id_user_type = 3;
         $user->save();
@@ -62,7 +62,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "user$i@gmail.com";
             $user->phone_number = "132456$i";
-            $user->id_city = random_int(1,50);
+            $user->id_city = random_int(1,9);
             $user->password = bcrypt('123456');
             $user->id_user_type = 2;
             $user->save();
@@ -77,7 +77,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "admin$i@gmail.com";
             $user->phone_number = "123421678$i";
-            $user->id_city = random_int(1,50);
+            $user->id_city = random_int(1,9);
             $user->password = bcrypt('123456');
             $user->id_user_type = 1;
             $user->save();
@@ -92,7 +92,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "distributor$i@gmail.com";
             $user->phone_number = "1234567$i";
-            $user->id_city = random_int(1,50);
+            $user->id_city = random_int(1,9);
             $user->password = bcrypt('123456');
             $user->id_user_type = 3;
             $user->save();

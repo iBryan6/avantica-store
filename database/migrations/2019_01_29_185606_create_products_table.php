@@ -19,9 +19,8 @@ class CreateProductsTable extends Migration
             $table->string('name',255);
             $table->string('price',30);
             $table->string('description');
-            $table->integer('id_category');
-            $table->integer('id_type');
-            $table->integer('id_brand');
+            $table->integer('id_type')->unasigned();
+            $table->integer('id_brand')->unasigned();
             $table->timestamps();
         });
     }

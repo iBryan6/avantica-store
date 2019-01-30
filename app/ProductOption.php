@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class ProductOption extends Model
 {
+
+    //Database Relations
     public function option(){
         return $this->belongsTo('App\Option');
     }

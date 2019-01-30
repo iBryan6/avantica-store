@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
+
+    //Database Relations
     public function orderItems(){
         return $this->hasMany('App\OrderItem');
     }
@@ -23,14 +25,11 @@ class Product extends Model
     }
 
     public function type(){
-        return $this->belongsTo('App\Type');
-    }
-
-    public function category(){
-        return $this->belongsTo('App\Category');
+        return $this->belongsTo('App\Type','type');
     }
 
     public function brand(){
         return $this->belongsTo('App\Brand');
     }
+    //End of relations
 }
