@@ -49,8 +49,8 @@ class DatatablesController extends Controller
             ->get();
 
         return Datatables::of($query)
-            ->setRowClass('{{ $status == 0 ? "alert-warning" : "alert-success" }}')
-            ->editColumn('status', '{{ $status == 0 ? "Pending" : "Done" }}')
+            ->setRowClass('{{ $status == 0 ? "alert-warning"  : ($status == 1 ? "alert-success" : "alert-danger")}}')
+            ->editColumn('status', '{{ $status == 0 ? "Pending" : ($status == 1 ? "Done" : "Error")}}')
             ->make(true);
     }
 }
