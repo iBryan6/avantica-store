@@ -24,34 +24,9 @@
                 <button class="btn btn-secondary" style="float:right;"><i class="fas fa-shopping-cart"></i> Cart
                     Items</button>
                 <br>
-                @guest
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}"> <i class="fas fa-user-lock"></i> {{ __('Login') }}</a>
-                </li>
-                @if (Route::has('register'))
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('register') }}"><i class="fas fa-plus"></i> {{ __('Register') }}</a>
-                </li>
-                @endif
-                @else
-                <li class="nav-item dropdown">
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" v-pre>Logged as 
-                        {{ Auth::user()->name }} <span class="caret"></span>
-                    </a>
-
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                                         document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
-                        </a>
-
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                            @csrf
-                        </form>
-                    </div>
-                </li>
-                @endguest
+                <a class="nav-link" href="/register"><i class="fas fa-plus"></i> Register</a>
+                <a class="nav-link" href="/login"><i class="fas fa-user-lock"></i> Login</a>
+                <a class="nav-link" href="/contact"><i class="fas fa-file-signature"></i> Contact Us</a>
                 <br>
             </li>
             <li>
