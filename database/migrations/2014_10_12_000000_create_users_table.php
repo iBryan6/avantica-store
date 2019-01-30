@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->string('phone_number', 20)->unique();
             $table->string('password');
             //$table->tinyInteger('status');
-            //$table->integer('id_city');
+            $table->integer('id_city');
             $table->integer('id_user_type');
             $table->rememberToken();
             $table->timestamps();
