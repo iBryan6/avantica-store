@@ -23,7 +23,7 @@ class ProductsTableSeeder extends Seeder
         $product->code = str_random(10);
         $product->name = "Leche PIL";
         $product->price = random_int(1,10);
-        $product->description = "Leche pasteurizada con 1000 calorias, este producto debe mantenerse en un ambiente frio";
+        $product->description = "Leche pasteurizada con 1450 cal, mantener en ambiente frio";
         $product->id_type = $milk;
         $product->id_brand = $pil;
         $product->save();
@@ -32,7 +32,7 @@ class ProductsTableSeeder extends Seeder
         $product->code = str_random(10);
         $product->name = "Leche Santa Clara";
         $product->price = random_int(1,10);
-        $product->description = "Leche pasteurizada con 1000 calorias, este producto debe mantenerse en un ambiente frio";
+        $product->description = "Leche pasteurizada con 1000 cal, mantener en ambiente frio";
         $product->id_type = $milk;
         $product->id_brand = $santaclara;
         $product->save();
