@@ -42,9 +42,9 @@ class DatatablesController extends Controller
     public function getInvoice()
     {
         $query = DB::table('invoices')
-            ->join('order', 'invoices.id_order', '=', 'order.id')
+            ->join('orders', 'invoices.id_order', '=', 'orders.id')
             ->join('users', 'invoices.id_user', '=', 'users.id')
-            ->select('invoices.*', 'order.*', 'users.*')
+            ->select('invoices.id as invoiceID', 'orders.created_at as date', 'users.name as distributor')
             ->get();
 
         return Datatables::of($query)->make(true);

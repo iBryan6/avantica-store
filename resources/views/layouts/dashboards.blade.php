@@ -80,7 +80,11 @@
             serverSide: true,
             ajax: '{!! route('users.getinvoice') !!}',
             columns: [
-                { data: 'id'}        
+                { data: 'invoiceID'},
+                { data: 'distributor'},
+                { data: 'date'},
+                { data: 'status'}
+
             ]
         });    
     });
