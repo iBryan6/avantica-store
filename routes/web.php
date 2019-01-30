@@ -28,3 +28,4 @@ Auth::routes();
 Route::get('users', 'DatatablesController@getUsers')->name('users.getusers');
 Route::get('distributors', 'DatatablesController@getDistributors')->name('users.getdistributors');
 Route::get('products', 'DatatablesController@getProducts')->name('users.getproducts');
+Route::get('invoices', 'DatatablesController@getInvoice')->name('users.getinvoice');
