@@ -34,11 +34,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Direccion test";
         $user->email = "user@gmail.com";
         $user->phone_number = "60380815";
-<<<<<<< HEAD
         $user->id_city = random_int(1,9);
-=======
-        $user->id_city = random_int(1, 50);
->>>>>>> bryan
         $user->password = bcrypt('cuajolote');
         $user->id_user_type = 2;
         $user->save();
@@ -51,11 +47,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Direccion test";
         $user->email = "distributor@gmail.com";
         $user->phone_number = "11111111";
-<<<<<<< HEAD
         $user->id_city = random_int(1,9);
-=======
-        $user->id_city = random_int(1, 50);
->>>>>>> bryan
         $user->password = bcrypt('javier');
         $user->id_user_type = 3;
         $user->save();
@@ -69,11 +61,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "user$i@gmail.com";
             $user->phone_number = "132456$i";
-<<<<<<< HEAD
             $user->id_city = random_int(1,9);
-=======
-            $user->id_city = random_int(1, 50);
->>>>>>> bryan
             $user->password = bcrypt('123456');
             $user->id_user_type = 2;
             $user->save();
@@ -88,11 +76,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "admin$i@gmail.com";
             $user->phone_number = "123421678$i";
-<<<<<<< HEAD
             $user->id_city = random_int(1,9);
-=======
-            $user->id_city = random_int(1, 50);
->>>>>>> bryan
             $user->password = bcrypt('123456');
             $user->id_user_type = 1;
             $user->save();
@@ -107,11 +91,7 @@ class UserTableSeeder extends Seeder
             $user->address = "Direccion test";
             $user->email = "distributor$i@gmail.com";
             $user->phone_number = "1234567$i";
-<<<<<<< HEAD
             $user->id_city = random_int(1,9);
-=======
-            $user->id_city = random_int(1, 50);
->>>>>>> bryan
             $user->password = bcrypt('123456');
             $user->id_user_type = 3;
             $user->save();
