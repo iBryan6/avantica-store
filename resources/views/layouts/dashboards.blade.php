@@ -81,10 +81,11 @@
             ajax: '{!! route('users.getinvoice') !!}',
             columns: [
                 { data: 'invoiceID'},
+                { data: 'code'},
+                { data: 'name'},
                 { data: 'distributor'},
                 { data: 'date'},
                 { data: 'status'}
-
             ]
         });    
     });

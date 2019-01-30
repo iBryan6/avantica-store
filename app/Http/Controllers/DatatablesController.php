@@ -43,10 +43,14 @@ class DatatablesController extends Controller
     {
         $query = DB::table('invoices')
             ->join('orders', 'invoices.id_order', '=', 'orders.id')
-            ->join('users', 'invoices.id_user', '=', 'users.id')
-            ->select('invoices.id as invoiceID', 'orders.created_at as date', 'users.name as distributor')
+            ->join('users as distributor', 'invoices.id_user', '=', 'distributor.id')
+            ->join('users as client', 'orders.id_user', '=', 'client.id')
+            ->select('invoices.id as invoiceID', 'orders.created_at as date', 'distributor.name as distributor', 'orders.code as code', 'invoices.status as status', 'client.*')
             ->get();
 
-        return Datatables::of($query)->make(true);
+        return Datatables::of($query)
+            ->setRowClass('{{ $status == 0 ? "alert-warning" : "alert-success" }}')
+            ->editColumn('status', '{{ $status == 0 ? "Pending" : "Done" }}')
+            ->make(true);
     }
 }
