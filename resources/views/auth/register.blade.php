@@ -62,6 +62,22 @@
                                     name="phone_number" value="{{ old('phone_number') }}" required>
                             </div>
                         </div>
+                        <div class="form-group row">
+                                <label for="city" class="col-md-4 col-form-label text-md-right">{{ __('City') }}<label style="color:red">*</label></label>
+    
+                                <div class="col-md-6 dropdown">
+                                    @php
+                                        $cities = App\City::get();
+                                    @endphp
+                                        <select id="city" name="city" class="form-control">
+                                            
+                                            @foreach ($cities as $city)
+                                                <option value="{{$city->id}}">{{$city->name}}</option>
+                                            @endforeach
+                                    
+                                        </select>
+                                </div>
+                            </div>
                         {{-- --}}
                         <hr>
                         <div class="form-group row">
