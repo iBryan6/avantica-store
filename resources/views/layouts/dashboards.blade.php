@@ -50,8 +50,8 @@
             ajax: '{!! route('users.getdistributors') !!}',
             columns: [
                 { data: 'id'},
+                { data: 'username'},
                 { data: 'name'},
-                { data: 'last_name'},
                 { data: 'city'},
                 { data: 'address'},
                 { data: 'email'},
@@ -73,6 +73,14 @@
                 { data: 'category'},  
                 { data: 'stock'},         
                 { data: 'price'}         
+            ]
+        });    
+        $('#invoice-table').DataTable({
+            processing: true,
+            serverSide: true,
+            ajax: '{!! route('users.getinvoice') !!}',
+            columns: [
+                { data: 'id'}        
             ]
         });    
     });

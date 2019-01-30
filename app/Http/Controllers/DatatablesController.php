@@ -39,4 +39,14 @@ class DatatablesController extends Controller
             ->editColumn('price', 'Bs {{$price}}')
             ->make(true);
     }
+    public function getInvoice()
+    {
+        $query = DB::table('invoices')
+            ->join('order', 'invoices.id_order', '=', 'order.id')
+            ->join('users', 'invoices.id_user', '=', 'users.id')
+            ->select('invoices.*', 'order.*', 'users.*')
+            ->get();
+
+        return Datatables::of($query)->make(true);
+    }
 }

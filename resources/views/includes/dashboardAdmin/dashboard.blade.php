@@ -1,6 +1,6 @@
 <div class="tab-pane fade show active table-responsive mb-4" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
-    <h2>LAST ORDERS</h2>
-    <table class="table table-hover table-bordered" id="adminOrders-table" style="width:100%">
+    <h2>LAST ORDERS INVOICE</h2>
+    <table class="table table-hover table-bordered" id="invoice-table" style="width:100%">
         <thead class="theadColor">
             <tr>
                 <th>#</th>

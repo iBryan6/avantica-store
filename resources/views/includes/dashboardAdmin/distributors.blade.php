@@ -4,8 +4,8 @@
         <thead class="theadColor">
             <tr>
                 <th>#</th>
-                <th>Sur Names</th>
-                <th>Last Names</th>
+                <th>Username</th>
+                <th>Names</th>
                 <th>City</th>
                 <th>Address</th>
                 <th>Email</th>
