@@ -16322,12 +16322,12 @@ body h2 {
 }
 
 .admin-dashboard .page-item.active .page-link {
-  background-color: black !important;
-  border-color: black !important;
+  background-color: #445268 !important;
+  border-color: #445268 !important;
 }
 
 .admin-dashboard .theadColor {
-  background-color: black;
+  background-color: #445268;
   color: white;
 }
 

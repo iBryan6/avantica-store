@@ -1,4 +1,4 @@
-<div class="tab-pane fade table-responsive" id="users" role="tabpanel" aria-labelledby="users-tab">
+<div class="tab-pane fade table-responsive mb-4" id="users" role="tabpanel" aria-labelledby="users-tab">
     <h2>USERS</h2>
     <table class="table table-hover table-bordered" id="users-table" style="width:100%">
         <thead class="theadColor">
