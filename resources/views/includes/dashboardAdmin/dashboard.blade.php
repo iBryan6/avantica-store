@@ -7,6 +7,7 @@
                 <th>Order Code</th>
                 <th>Client</th>
                 <th>Distributor</th>
+                <th>Date</th>
                 <th>Status</th>
             </tr>
         </thead>
