@@ -1,7 +1,7 @@
 <div class="tab-pane fade table-responsive" id="products" role="tabpanel" aria-labelledby="products-tab">
     <h2>PRODUCTS</h2>
     <table class="table table-hover table-bordered" id="products-table" style="width:100%">
-        <thead class="table-dark">
+        <thead class="theadColor">
             <tr>
                 <th>#</th>
                 <th>Code</th>

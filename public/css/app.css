@@ -16326,6 +16326,11 @@ body h2 {
   border-color: black !important;
 }
 
+.admin-dashboard .theadColor {
+  background-color: black;
+  color: white;
+}
+
 .admin-dashboard a {
   text-decoration: none;
   color: #445268;
