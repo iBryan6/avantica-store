@@ -29,7 +29,7 @@ class LoginController extends Controller
     
     public function redirectPath()
     {
-        if (\Auth::user()->id_user_type==2) {
+        if (\Auth::user()->id_user_type==3) {
             return "/dashboard-distributor";
 
         }elseif(\Auth::user()->id_user_type==1){
