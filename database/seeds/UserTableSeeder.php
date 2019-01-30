@@ -14,7 +14,7 @@ class UserTableSeeder extends Seeder
     public function run()
     {
 
-        //A 1
+        //A 12
         $user = new User();
         $user->username = "Bryan Admin";
         $user->name = "Bryan";
