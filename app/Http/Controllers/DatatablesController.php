@@ -31,8 +31,8 @@ class DatatablesController extends Controller
             ->join('type', 'products.id_type', '=', 'type.id')
             ->join('brand', 'products.id_brand', '=', 'brand.id')
             ->join('category', 'category.id', '=', 'type.id_category')
-        //->join('stock', 'products.id', '=', 'stock.id_products')
-            ->select('products.*', 'type.name as type', 'brand.name as brand', 'category.name as category')
+            ->join('stock', 'products.id', '=', 'stock.id_products')
+            ->select('products.*', 'type.name as type', 'brand.name as brand', 'category.name as category', 'stock.units as stock')
             ->get();
 
         return Datatables::of($query)

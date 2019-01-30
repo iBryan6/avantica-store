@@ -1,11 +1,13 @@
-<div class="tab-pane fade show active table-responsive" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+<div class="tab-pane fade show active table-responsive mb-4" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
     <h2>LAST ORDERS</h2>
-    <table class="table table-striped table-bordered" id="">
-        <thead>
+    <table class="table table-hover table-bordered" id="adminOrders-table" style="width:100%">
+        <thead class="theadColor">
             <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Email</th>
+                <th>#</th>
+                <th>Order Code</th>
+                <th>Client</th>
+                <th>Distributor</th>
+                <th>Status</th>
             </tr>
         </thead>
     </table>

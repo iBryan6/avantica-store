@@ -1,7 +1,12 @@
 .admin-dashboard {
     .page-item.active .page-link {
-        background-color: black !important;
-        border-color: black !important;
+        background-color: $primary-color !important;
+        border-color: $primary-color !important;
+    }
+
+    .theadColor {
+        background-color: $primary-color;
+        color: white;
     }
 
     a {

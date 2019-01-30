@@ -1,7 +1,7 @@
-<div class="tab-pane fade table-responsive" id="products" role="tabpanel" aria-labelledby="products-tab">
+<div class="tab-pane fade table-responsive mb-4" id="products" role="tabpanel" aria-labelledby="products-tab">
     <h2>PRODUCTS</h2>
     <table class="table table-hover table-bordered" id="products-table" style="width:100%">
-        <thead class="table-dark">
+        <thead class="theadColor">
             <tr>
                 <th>#</th>
                 <th>Code</th>
@@ -14,7 +14,7 @@
             </tr>
         </thead>
     </table>
-    <button type="button" class="btn btn-dark">Add Product</button>
+    <button type="button" class="btn btn-dark mt-4 mb-4">Add Product</button>
 </div>
 
 <!-- MODAL -->
