@@ -20,9 +20,7 @@ class DatabaseSeeder extends Seeder
         $this->call(OrderTableSeeder::class);
         $this->call(OrderItemTableSeeder::class);
         $this->call(ProductImageTableSeeder::class);
-        $this->call(BrandTableSeeder::class);
         $this->call(StockTableSeeder::class);
-
-
+        $this->call(BrandTableSeeder::class);
     }
 }
