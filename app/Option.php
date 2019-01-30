@@ -6,10 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Option extends Model
 {
+
+    //Database Relations
     public function optionGroup(){
         return $this->belongsTo('App\OptionGroup');
     }
-
     public function productOptions(){
         return $this->hasMany('App\ProcutOption');
     }

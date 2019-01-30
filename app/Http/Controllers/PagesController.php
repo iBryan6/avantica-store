@@ -37,4 +37,9 @@ class PagesController extends Controller
     {
         return view('pages.login');
     }
+
+    public function productDetails()
+    {
+        return view('pages.productDetails');
+    }
 }
