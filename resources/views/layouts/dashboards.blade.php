@@ -51,7 +51,8 @@
                 { data: 'last_name'},
                 { data: 'address'},
                 { data: 'email'},
-                { data: 'phone_number'}
+                { data: 'phone_number'},
+                { data: 'created_at'}
             ]
         });     
     });
