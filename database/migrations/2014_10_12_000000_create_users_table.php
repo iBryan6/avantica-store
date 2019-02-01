@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->tinyInteger('status')->default('0');
             $table->integer('id_city')->default('1');
-            $table->integer('id_user_type')->default('1');
+            $table->integer('id_user_type')->default('2');
             $table->rememberToken();
             $table->timestamps();
         });

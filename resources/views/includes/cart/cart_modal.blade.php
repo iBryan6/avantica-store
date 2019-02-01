@@ -16,7 +16,7 @@
 
                     <li id="li-{{$i}}" class="list-group-item cart-item">
 
-                        <img src="images/lechepil-50px.png" alt="Small picture of a product">
+                        <img src="images/milk/lechepil-50px.png" alt="Small picture of a product">
                         
                         <input id="input-{{$i}}" type="number" name="points" min="1" max="9" value="1" onchange=
                             "
